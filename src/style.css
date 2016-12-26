@@ -1,3 +1,5 @@
+/* Header */
+
 .header nav.navbar {
   border-bottom: none;
   background-color: #61625a;
@@ -19,6 +21,8 @@
   color: #aaa;
 }
 
+/* Page Home */
+
 .page_home .home_main {
   position: absolute;
   width: 100%;
@@ -38,6 +42,54 @@
 .home_main_text h3 {
   font-size: 2.7em;
 }
+
+/* Page Payment */
+
+.page_payment {
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url(./images/bg_ptrn.png);
+  background-repeat: repeat;
+  position: absolute;
+  height:100%;
+  width:100%;
+}
+
+.page_payment > .container > .row > div.col-xs-12.col-md-4 {
+  margin-top: 20%;
+}
+
+.panel-body {
+  height: 170px;
+}
+
+p.has_small {
+  margin-bottom: 0;
+}
+
+p.text_small {
+  font-size: 0.5em;
+}
+
+.page_payment input {
+  margin-top: 15px;
+}
+
+/* Page 404 */
+
+div.page_404 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page_404 > .container {
+  width: 100%;
+  margin-top: 20%;
+  text-align: center;
+}
+
+/* Buttons */
 
 button.navbar-toggle.collapsed {
   border: none;
@@ -64,6 +116,8 @@ a.btn_red.btn.btn-lg:hover {
   border:none;
 }
 
+/* Footer */
+
 .footer nav.navbar-fixed-bottom {
   border: none;
 }
@@ -72,16 +126,4 @@ a.btn_red.btn.btn-lg:hover {
   color: #fff;
   text-align: center;
   padding: 15px 0;
-}
-
-div.page_404 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
-.page_404 > .container {
-  width: 100%;
-  margin-top: 20%;
-  text-align: center;
 }

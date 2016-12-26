@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Match from 'react-router/Match';
 import Miss from 'react-router/Miss';
-import Link from 'react-router/Link';
-import Redirect from 'react-router/Redirect';
+//import Link from 'react-router/Link';
+//import Redirect from 'react-router/Redirect';
 import Router from 'react-router/BrowserRouter';
 
 import Home from './components/Contents/Home';
+import Payment from './components/Contents/Payment';
 import NoMatch from './components/Contents/NoMatch';
 
 import Header from './components/Header/Header';
@@ -21,7 +21,7 @@ class App extends Component {
         <div>
           <Header />
           <Match pattern="/" exactly component={Home}/>
-          <Match pattern="/will-match" component={WillMatch}/>
+          <Match pattern="/payment" component={Payment}/>
           <Miss component={NoMatch} />
           <Footer />
         </div>
@@ -29,14 +29,5 @@ class App extends Component {
     );
   }
 }
-
-
-const WillMatch = () => (
-  <div>
-    <h1>Matched!</h1>
-  </div>
-);
-
-
 
 export default App;
