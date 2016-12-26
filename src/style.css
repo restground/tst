@@ -1,0 +1,87 @@
+.header nav.navbar {
+  border-bottom: none;
+  background-color: #61625a;
+  background-image: none;
+  color: #fff;
+  height: 80px;
+}
+
+.header nav.navbar > .container {
+  margin-top:15px;
+  background-color: #61625a;
+}
+
+.header ul.nav li a {
+  color: #fff;
+}
+
+.header ul.nav li a:hover, .header ul.nav li a:active {
+  color: #aaa;
+}
+
+.page_home .home_main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/bg_home.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+.home_main_text {
+  text-align: center;
+  margin-top:20%;
+}
+
+.home_main_text h3 {
+  font-size: 2.7em;
+}
+
+button.navbar-toggle.collapsed {
+  border: none;
+}
+
+a.btn_red.btn.btn-lg {
+  margin-top: 20px;
+  width:50%;
+  border: none;
+  background-color: #98182f;
+  background-image: none;
+  color: #fff;
+  text-shadow: none;
+  border-radius: 0;
+}
+
+a.btn_red.btn.btn-lg:hover {
+  background-color: #7f182f;
+}
+
+.navbar-inverse button.navbar-toggle.collapsed:hover, .navbar-inverse button.navbar-toggle.collapsed:active {
+  color: #aaa;
+  background-color: rgba(0,0,0,0);
+  border:none;
+}
+
+.footer nav.navbar-fixed-bottom {
+  border: none;
+}
+
+.footer nav > .container {
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+div.page_404 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page_404 > .container {
+  width: 100%;
+  margin-top: 20%;
+  text-align: center;
+}
