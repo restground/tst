@@ -7,12 +7,14 @@ import Miss from 'react-router/Miss';
 //import Redirect from 'react-router/Redirect';
 import Router from 'react-router/BrowserRouter';
 
-import Home from './components/Contents/Home';
-import Payment from './components/Contents/Payment';
-import NoMatch from './components/Contents/NoMatch';
-
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+
+import Home from './components/Contents/Home';
+import AboutTST from './components/Contents/AboutTST';
+import Payment from './components/Contents/Payment';
+
+import NoMatch from './components/Contents/NoMatch';
 
 class App extends Component {
   render() {
@@ -21,6 +23,7 @@ class App extends Component {
         <div>
           <Header />
           <Match pattern="/" exactly component={Home}/>
+          <Match pattern="/about-tst" component={AboutTST}/>
           <Match pattern="/payment" component={Payment}/>
           <Miss component={NoMatch} />
           <Footer />

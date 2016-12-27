@@ -75,6 +75,29 @@ p.text_small {
   margin-top: 15px;
 }
 
+/* Page about-tst */
+
+.page_about_tst {
+  position:absolute;
+  margin-top:80px;
+  margin-bottom: 100px;
+  min-height: 500px;
+  height: 100%;
+  width: 100%;
+}
+
+.page_about_tst .jumbotron {
+  background-image:url(images/bn_test.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:200px;
+}
+
+div.page_about_tst {
+  
+}
+
 /* Page 404 */
 
 div.page_404 {
@@ -87,6 +110,18 @@ div.page_404 {
   width: 100%;
   margin-top: 20%;
   text-align: center;
+}
+
+/* Background */
+
+.bg_ptrn {
+  background-image:url(images/bg_ptrn.png);
+  background-repeat: repeat;
+}
+
+/* Components */
+#root .panel-body {
+  height: 100%;
 }
 
 /* Buttons */
