@@ -43,6 +43,14 @@
   font-size: 2.7em;
 }
 
+/* 민우 수정 시작 */
+
+.page_home .home_main_text a.btn_red.btn-lg {
+	width:40%;
+}
+
+/* 민우 수정 끝 */
+
 /* Page Payment */
 
 .page_payment {
