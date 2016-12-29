@@ -207,16 +207,8 @@
 
 .page_test {
 	padding-top:60px;
-	font-size:16px;
+	font-size:15px;
 	text-align: center;
-}
-.page_test .btn-link {
-  color:#323232;
-  font-size:12px;
-	margin-left:0;
-}
-.btn-link + .btn-link {
-  margin-left:20px;
 }
 .btn-link:hover {
   font-weight: 600; 
@@ -225,33 +217,28 @@
 .page_test_body {
   background-color:#f8f7f0;
   width:100%;
-  height:550px;
-	margin-top:30px;
-	padding:50px 40px;
+ 	margin-top:30px;
+	padding:28px 30px;
 	text-align: left;
 	font-size:14px;
 }
-.leftbox {
-	float:left;
-	width:50%;
-	height:100%;
-	padding-right:15px;
-}
-.rightbox {
-	float:right;
-	width:50%;
-	height:100%;
-	padding-left:15px;
-}
 .page_test_body .checkbox label{
-	font-size:15px;
+	font-size:14px;
 	font-weight: 500;
 }
 .checkbox + .checkbox label{
-	margin-top:40px;
+	margin-top:25px;
 	
 }
-
+.container .row .col-md-12 {
+	width: 80%;
+	margin-left:114px;
+}
+.page_test .container .page_test_body .row{
+	width:100%;
+	margin-left:0;
+	height: 410px;
+}
 
 
 /* background */
@@ -293,30 +280,41 @@
 .btn + .btn {
   margin-left: 30px;
 }
-.page_test_body .btn {
+
+/* Page_test에만 적용된 button  */
+
+.page_test .btn-link {
+  color:#323232;
+  font-size:12px;
+	margin-left:0;
+}
+.btn-link + .btn-link {
+  margin-left:25px;
+}
+.btn_test .btn {
 	margin-top:10px;
 	padding:10px 70px;
 	font-size:16px;
 	border-radius: 5px;
 	background-color:#393a32;
 }
-.page_test_body .btn + .btn{
+.btn_test .btn + .btn{
 	background-color:#98182f;
 }
 .btn_test {
-	position: absolute;
-	right:60px;
-	bottom:55px;
+ 	position: absolute;
+	bottom:150px;
+	left:762px;
 }
 
-/* button hover, active 됐을 때  */
+/* button hover, active 됐을 때(about_company, page_test에 적용)  */
 
-.container .btn:hover, .container .btn :active, .container .btn:focus {
+.container .btn:hover, .container .btn :active, .container .btn:focus, .btn_test .btn + .btn:hover, .btn_test .btn + .btn:active, .btn_test .btn + .btn:focus {
   color:#fff;
   background-color: #7f182f;
   border-color: none;
 }
-.page_test_body .btn:hover, .page_test_body .btn:active, .page_test_body .btn:focus  {
+.btn_test .btn:hover, .btn_test .btn:active, .btn_test .btn:focus  {
 	background-color:#323232;
 }
 
