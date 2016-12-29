@@ -39,11 +39,7 @@ class Payment extends Component {
                       <p>Package 3 (65개)</p>
                     </Col>
                     <Col xs={6} md={6} className="text_price">
-                      <p>20,000원</p>
-                      <br/>
-                      <p>300,000원</p>
-                      <p>500,000원</p>
-                      <p>1,000,000원</p>
+                      
                     </Col>
                   </Row>
                 </Panel>
@@ -73,11 +69,7 @@ class Payment extends Component {
                       <p className="text_small">(재계약 시 5% 할인)</p>
                     </Col>
                     <Col xs={6} md={6} className="text_price">
-                      <p>30,000원</p>
-                      <br/>
-                      <p>300,000원</p>
-                      <p>500,000원</p>
-                      <p>1,000,000원</p>
+                      
                     </Col>
                   </Row>
                 </Panel>
@@ -103,9 +95,7 @@ class Payment extends Component {
                       <p className="text_small">(부모님 50% 할인)</p>
                     </Col>
                     <Col xs={6} md={6} className="text_price">
-                      <p>100,000원</p>
-                      <br/>
-                      <p>150,000원</p>
+                      
                     </Col>
                   </Row>
                 </Panel>
