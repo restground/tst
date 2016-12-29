@@ -29,7 +29,7 @@ class AboutCompany extends Component {
 								  <p>현대 사회 삶을 살아나갈 분명한 내면의 기준과 바탕을 갖추는</p><br /> 
 								  <p>인성을 기르고자 하는 것입니다.</p><br /><br />
 								<div className="down_mark"></div>
-								<div className="video"></div>
+								<iframe width="600" height="400" src="https://www.youtube.com/embed/MyC67-LBtO4" frameborder="0" allowfullscreen></iframe>
 						  </div>    
             </div>
           </div>

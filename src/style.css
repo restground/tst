@@ -159,11 +159,7 @@ p.text_small {
 	background-repeat: no-repeat;
 	margin:0 auto;
 }
-
-.video {
-	background-color: #323232;
-	width:600px;
-	height:400px;
+.page_about_company iframe {
 	margin: 40px auto;
 }
 
