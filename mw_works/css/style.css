@@ -1,10 +1,5 @@
-.content {
-    margin-top:5%;
-    width:100%;
-    height:75vh;
-    background-image: url("../images/bg_ptrn.png");
-    background-repeat:repeat;
-}
+/* git하기 이전에 작업한 CSS */
+
 .root .header {
     height: 80px;
     background-color: #61625a;
@@ -62,24 +57,13 @@
 .navbar-text .nav-pills > li + li {
   margin-left: 12px;
 }
-.navbar-text .nav>li>a:hover,
-.navbar-text .nav>li>a:focus{
+.navbar-text .nav>li>a:hover,.navbar-text .nav>li>a:focus{
     color:#393a32;
     font-weight: 400;
     border-radius: 3px;
 }
-.img_logo {
-    text-align: center;
-    margin:16% 0;
-}
 .img_logo .form-group {
     margin:10% 0;
-}
-.form-group .form-control {
-    text-align: center;
-    font-size:16px;
-    height:44px;
-    margin-top:2.5%
 }
 .navbar-header {
     width:100%;
@@ -87,20 +71,7 @@
 .navbar-brand {
     margin-top:8px;
 }
-.btn_group_login .btn .btn_lose {
-    border: 0px;
-}
-.btn_group_login .btn_login:hover, .btn_group_login .btn_login:active, .btn_group_login .btn_login:focus, .btn_group_login .btn_home:hover, .btn_group_login .btn_home:active, .btn_group_login .btn_home:focus   {
-    color:#fff;
-    background-color: #7f182f;
-    border-color: none;
-}
-.btn_group_login .btn_signup:hover, .btn_group_login .btn_signup:active, .btn_group_login .btn_signup:focus  {
-    color:#fff;
-    background-color: #323232;
-    border-color: none;
-}
-.btn_group_login .btn-link:focus {
+.btn_login .btn-link:focus {
     outline: none;
 }
 .btn-link .glyphicon {
@@ -111,15 +82,13 @@
 .footer { 
     padding-top:2%;
 }
-
-
 .content_home{
     margin-top:3%;
     width:100%;
     height:90vh;
     background-image: url("../images/bg_home.png");
     background-repeat: no-repeat;
-    }
+}
 .txt_main { 
     font-size: 30px;
     line-height: 45px;
@@ -135,28 +104,68 @@
     padding:12px 16px;
     margin-top:10%;
 }
-.content_test .txt_main { 
-    font-size: 18px;
-    line-height: 20px;
-    margin-top:4%; 
-    }
-.content_test .txt_main2 { 
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    }
-.content_test .progress-btn {
-    margin-top:2%;
-    }
-.content_test .progress {
-    margin-top:1%;
-    }
-.progress-btn .btn {
-    padding:0;
-    }
-.progress-btn .btn-sub {
-    margin-left:5.8%;
-    }
+
+
+/* git하기 이전에 작업한 CSS - 여기까지 */
+
+/* page_signup */
+
+.page_signup {
+	width: 100%;
+	height: 860px;
+	padding-top:4%;
+}
+.page_signup .bg_white {
+	margin-top:20px;
+}
+.page_signup .img_logo {
+	width: 120px;
+	height: 112px;
+	margin-left:225px;
+	background-image: url(../images/signup_logo.png);
+	margin-bottom: 20px;
+}
+.page_signup .form-group {
+	margin-top:5px;
+}
+.page_signup .col-md-6 {
+	margin-left:300px;
+}
+.page_signup .col-md-8{
+	margin-left: 100px;
+}
+.page_signup .glyphicon {
+	margin-top: 28px;
+	font-size: 11px;
+}
+.form-inline p {
+	font-size:11px;
+}
+
+
+/* page_login */
+
+.page_login {
+	width: 100%;
+	height: 860px;
+	padding-top:4%;
+}
+.page_login .img_logo {
+	width: 120px;
+	height: 112px;
+	margin-top:150px;
+  margin-left:395px;
+	background-image: url(../images/login_logo.png);
+	margin-bottom: 20px;
+}
+
+.form-control + .form-control {
+	margin-top:15px;
+}
+.btn_login {
+	margin-top:40px;
+}
+
 
 
 /* page_company */
@@ -240,13 +249,12 @@
 	height: 410px;
 }
 
-
 /* background */
 
 .bg_white {
 	background-color: #fff;
 	width: 100%;
-	padding:50px;
+	padding:40px;
 	margin-top:10px;
 	margin-bottom: 60px;
 }
@@ -259,11 +267,23 @@
 
 .txt_basic {
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
 }
-
 .txt_basic p{
 	margin-bottom: 1px;
+}
+
+/* form */
+
+.form-group, .form-inline .form-group .form-control {
+  text-align: center;
+  font-size:14px;
+  height:50px;
+  margin-top:15px;
+	width:100%
+}
+.page_login .form-group, .page_signup .form-group {
+	margin-top:15px;
 }
 
 /* button */
@@ -271,17 +291,35 @@
 .container .btn {
   color:#fff;
   background-color: #98182f;
-  font-size:18px;
+  font-size:14px;
   font-weight: 400;
-  padding:14px 50px;
-	border-radius:10px;
+  padding:15px 50px;
+	border-radius:5px;
 	margin-top:50px;
 }
-.btn + .btn {
+.page_about_company .btn + .btn, .btn_test .btn + .btn {
   margin-left: 30px;
 }
+.btn_test .btn, .btn_login .btn {
+	margin-top:10px;
+	padding:15px 70px;
+	font-size:14px;
+	border-radius: 5px;
+	background-color:#393a32;
+}
+.btn_test .btn + .btn, .btn_login .btn + .btn {
+	background-color:#98182f;
+}
+.page_test .btn-link, .page_login .btn-link {
+  color:#323232;
+  font-size:12px;
+	margin-left:0;
+}
+.btn_signup .btn {
+	margin-top:40px;
+}
 
-/* Page_test에만 적용된 button  */
+/* page_test에만 적용된 button */
 
 .page_test .btn-link {
   color:#323232;
@@ -291,34 +329,33 @@
 .btn-link + .btn-link {
   margin-left:25px;
 }
-.btn_test .btn {
-	margin-top:10px;
-	padding:10px 70px;
-	font-size:16px;
-	border-radius: 5px;
-	background-color:#393a32;
-}
-.btn_test .btn + .btn{
-	background-color:#98182f;
-}
 .btn_test {
  	position: absolute;
 	bottom:150px;
 	left:762px;
 }
 
+/* page_login에만 적용된 button */
+
+.btn-block {
+	margin-top:50px;
+}
+.page_login .btn-block + .btn-block {
+	margin-top:15px;
+}
+
 /* button hover, active 됐을 때(about_company, page_test에 적용)  */
 
-.container .btn:hover, .container .btn :active, .container .btn:focus, .btn_test .btn + .btn:hover, .btn_test .btn + .btn:active, .btn_test .btn + .btn:focus {
+.container .btn:hover, .container .btn :active, .container .btn:focus, .btn_test .btn + .btn:hover, .btn_test .btn + .btn:active, .btn_test .btn + .btn:focus, .btn_login .btn + .btn:hover, .btn_login .btn + .btn:active, .btn_login .btn + .btn:focus {
   color:#fff;
   background-color: #7f182f;
   border-color: none;
 }
-.btn_test .btn:hover, .btn_test .btn:active, .btn_test .btn:focus  {
+.btn_test .btn:hover, .btn_test .btn:active, .btn_test .btn:focus, .btn_login .btn:hover, .btn_login .btn:active, .btn_login .btn:focus  {
 	background-color:#323232;
 }
 
- 
+
 body { padding-bottom: 70px; }
 html body { height:100%; }
 
