@@ -14,6 +14,7 @@ import Home from './components/Contents/Home';
 import AboutTST from './components/Contents/AboutTST';
 import AboutCompany from './components/Contents/AboutCompany';
 import Payment from './components/Contents/Payment';
+import Test from './components/Contents/Test';
 
 import NoMatch from './components/Contents/NoMatch';
 
@@ -22,12 +23,15 @@ class App extends Component {
     return (
       <Router history={history}>
         <div>
-          <Header />
+          {location.pathname === '/test'? <h2>This is Test!</h2> :  <Header />}
+          
           <Match pattern="/" exactly component={Home}/>
           <Match pattern="/about-tst" component={AboutTST}/>
           <Match pattern="/about-company" component={AboutCompany}/>
           <Match pattern="/payment" component={Payment}/>
+          <Match pattern="/test" component={Test}/>
           <Miss component={NoMatch} />
+          <h2>{location.pathname}</h2>
           <Footer />
         </div>
       </Router>
