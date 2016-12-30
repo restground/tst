@@ -16,7 +16,7 @@ class Home extends Component {
                   bsStyle="default"
                   bsSize="large"
                   href="/test"
-                  target="_self">
+                  target="_blank">
                   테스트 시작하기
                 </Button>
               </p>
