@@ -683,8 +683,8 @@ class Test extends Component {
 					</div>
 					<div className="row">
 						<div className="btn_test">
-							<button type="button" className="btn btn_before">뒤로</button>    
-							<button type="button" className="btn btn_after">다음</button>
+							<button type="button" className="btn btn_before" style={{display:"none"}}>뒤로</button>    
+							<button type="button" className="btn btn_after" style={{padding:"14px 100px"}}>다음</button>
 						</div>
 
 						<div className="btn_test btn_test_last">
