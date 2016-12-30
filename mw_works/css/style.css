@@ -1,0 +1,330 @@
+.content {
+    margin-top:5%;
+    width:100%;
+    height:75vh;
+    background-image: url("../images/bg_ptrn.png");
+    background-repeat:repeat;
+}
+.root .header {
+    height: 80px;
+    background-color: #61625a;
+    color:#fff;
+    line-height: 22px;
+    font-size: 20px;
+}
+.root .footer {
+    height:100px;
+    background-color: #393a32;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 200;
+}
+.nav a#trigger{
+    display: none;
+}
+.btn_group_login .btn-lg .btn_default {
+    font-size:16px;
+    font-weight: 200;
+    padding:12px 16px;
+}
+.btn_group_login .btn_login{
+    color:#fff;
+    background-color: #98182f;
+    font-size:16px;
+    font-weight: 200;
+    padding:12px 16px;
+}
+
+.btn_group_login .btn_signup{
+    color:#fff;
+    background-color: #393a32;
+    font-weight: 200;
+    font-size:16px;
+    padding:12px 16px;
+}
+.content .btn_group_login .btn_signup {
+    margin-top: 2%;
+}
+.content .btn_group_login .btn-link {
+    margin-top: 4%;
+    text-align: center;
+    color:#393a32;
+    font-size:12px;
+}
+.btn_nav>li>a{
+    font-size:14px;
+    line-height: 22px;
+    color:#fff;
+    font-weight: 200;
+}
+.navbar-text .nav-pills > li + li {
+  margin-left: 12px;
+}
+.navbar-text .nav>li>a:hover,
+.navbar-text .nav>li>a:focus{
+    color:#393a32;
+    font-weight: 400;
+    border-radius: 3px;
+}
+.img_logo {
+    text-align: center;
+    margin:16% 0;
+}
+.img_logo .form-group {
+    margin:10% 0;
+}
+.form-group .form-control {
+    text-align: center;
+    font-size:16px;
+    height:44px;
+    margin-top:2.5%
+}
+.navbar-header {
+    width:100%;
+}
+.navbar-brand {
+    margin-top:8px;
+}
+.btn_group_login .btn .btn_lose {
+    border: 0px;
+}
+.btn_group_login .btn_login:hover, .btn_group_login .btn_login:active, .btn_group_login .btn_login:focus, .btn_group_login .btn_home:hover, .btn_group_login .btn_home:active, .btn_group_login .btn_home:focus   {
+    color:#fff;
+    background-color: #7f182f;
+    border-color: none;
+}
+.btn_group_login .btn_signup:hover, .btn_group_login .btn_signup:active, .btn_group_login .btn_signup:focus  {
+    color:#fff;
+    background-color: #323232;
+    border-color: none;
+}
+.btn_group_login .btn-link:focus {
+    outline: none;
+}
+.btn-link .glyphicon {
+    font-size: 20px;
+    font-weight: 100;
+    color:#fff;
+}
+.footer { 
+    padding-top:2%;
+}
+
+
+.content_home{
+    margin-top:3%;
+    width:100%;
+    height:90vh;
+    background-image: url("../images/bg_home.png");
+    background-repeat: no-repeat;
+    }
+.txt_main { 
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    text-align: center;
+    margin-top:40%; 
+}
+.btn_group_login .btn_home{
+    color:#fff;
+    background-color: #98182f;
+    font-size:16px;
+    font-weight: 200;
+    padding:12px 16px;
+    margin-top:10%;
+}
+.content_test .txt_main { 
+    font-size: 18px;
+    line-height: 20px;
+    margin-top:4%; 
+    }
+.content_test .txt_main2 { 
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    }
+.content_test .progress-btn {
+    margin-top:2%;
+    }
+.content_test .progress {
+    margin-top:1%;
+    }
+.progress-btn .btn {
+    padding:0;
+    }
+.progress-btn .btn-sub {
+    margin-left:5.8%;
+    }
+
+
+/* page_company */
+
+.page_about_company {
+  width:100%;
+  height:auto;
+	padding-top:4%;
+  }
+.page_about_company .jumbotron {
+	background-image: url(../images/bn_company.png);
+	width: 100%;
+	height:250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+
+.container + .jumbotron {
+	background-image: url(../images/bn_company2.png);
+	width: 100%;
+	height:250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+
+.up_mark {
+	background-image: url(../images/img_up_mark.png);
+	width:100px;
+	height:100px;
+	background-repeat: no-repeat;
+	margin:0 auto;
+}
+.down_mark {
+	background-image: url(../images/img_down_mark.png);
+	width:100px;
+	height:100px;
+	background-repeat: no-repeat;
+	margin:0 auto;
+}
+.video {
+	background-color: #323232;
+	width:600px;
+	height:400px;
+	margin: 0 auto;
+}
+
+/* page_test */
+
+.page_test {
+	padding-top:60px;
+	font-size:15px;
+	text-align: center;
+}
+.btn-link:hover {
+  font-weight: 600; 
+	background-color: transparent;
+}
+.page_test_body {
+  background-color:#f8f7f0;
+  width:100%;
+ 	margin-top:30px;
+	padding:28px 30px;
+	text-align: left;
+	font-size:14px;
+}
+.page_test_body .checkbox label{
+	font-size:14px;
+	font-weight: 500;
+}
+.checkbox + .checkbox label{
+	margin-top:25px;
+	
+}
+.container .row .col-md-12 {
+	width: 80%;
+	margin-left:114px;
+}
+.page_test .container .page_test_body .row{
+	width:100%;
+	margin-left:0;
+	height: 410px;
+}
+
+
+/* background */
+
+.bg_white {
+	background-color: #fff;
+	width: 100%;
+	padding:50px;
+	margin-top:10px;
+	margin-bottom: 60px;
+}
+.bg_ptrn {
+  background-image:url(../images/bg_ptrn.png);
+	background-repeat: repeat;
+}
+
+/* text */
+
+.txt_basic {
+	text-align: center;
+	font-size: 20px;
+}
+
+.txt_basic p{
+	margin-bottom: 1px;
+}
+
+/* button */
+
+.container .btn {
+  color:#fff;
+  background-color: #98182f;
+  font-size:18px;
+  font-weight: 400;
+  padding:14px 50px;
+	border-radius:10px;
+	margin-top:50px;
+}
+.btn + .btn {
+  margin-left: 30px;
+}
+
+/* Page_test에만 적용된 button  */
+
+.page_test .btn-link {
+  color:#323232;
+  font-size:12px;
+	margin-left:0;
+}
+.btn-link + .btn-link {
+  margin-left:25px;
+}
+.btn_test .btn {
+	margin-top:10px;
+	padding:10px 70px;
+	font-size:16px;
+	border-radius: 5px;
+	background-color:#393a32;
+}
+.btn_test .btn + .btn{
+	background-color:#98182f;
+}
+.btn_test {
+ 	position: absolute;
+	bottom:150px;
+	left:762px;
+}
+
+/* button hover, active 됐을 때(about_company, page_test에 적용)  */
+
+.container .btn:hover, .container .btn :active, .container .btn:focus, .btn_test .btn + .btn:hover, .btn_test .btn + .btn:active, .btn_test .btn + .btn:focus {
+  color:#fff;
+  background-color: #7f182f;
+  border-color: none;
+}
+.btn_test .btn:hover, .btn_test .btn:active, .btn_test .btn:focus  {
+	background-color:#323232;
+}
+
+ 
+body { padding-bottom: 70px; }
+html body { height:100%; }
+
+
+
+
+    
+
+
