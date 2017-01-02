@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {ControlLabel, FormControl, FormGroup } from 'react-bootstrap';
 
 class Register extends Component {
   render() {
