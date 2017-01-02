@@ -23,16 +23,14 @@ class App extends Component {
     return (
       <Router history={history}>
         <div>
-          {location.pathname === '/test'? <h2>This is Test!</h2> :  <Header />}
-          
+          {location.pathname === '/test'? <div></div> :  <Header />}
           <Match pattern="/" exactly component={Home}/>
           <Match pattern="/about-tst" component={AboutTST}/>
           <Match pattern="/about-company" component={AboutCompany}/>
           <Match pattern="/payment" component={Payment}/>
           <Match pattern="/test" component={Test}/>
           <Miss component={NoMatch} />
-          <h2>{location.pathname}</h2>
-          <Footer />
+          {location.pathname === '/test'? <div></div> :  <Footer />}
         </div>
       </Router>
     );
