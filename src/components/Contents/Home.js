@@ -4,7 +4,7 @@ import {Jumbotron, Button, Grid } from 'react-bootstrap';
 class Home extends Component {
   render() {
     return (
-      <div className="page_home">
+      <div className="page_home noscroll">
         <Jumbotron className="home_main">
           <Grid>
             <div className="home_main_text">

@@ -16,6 +16,8 @@ import AboutCompany from './components/Contents/AboutCompany';
 import Payment from './components/Contents/Payment';
 import Test from './components/Contents/Test';
 
+import Login from './components/Login/Login';
+
 import NoMatch from './components/Contents/NoMatch';
 
 class App extends Component {
@@ -28,6 +30,7 @@ class App extends Component {
           <Match pattern="/about-tst" component={AboutTST}/>
           <Match pattern="/about-company" component={AboutCompany}/>
           <Match pattern="/payment" component={Payment}/>
+          <Match pattern="/login" component={Login}/>
           <Match pattern="/test" component={Test}/>
           <Miss component={NoMatch} />
           {location.pathname === '/test'? <div></div> :  <Footer />}
