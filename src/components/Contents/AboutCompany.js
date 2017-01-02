@@ -4,7 +4,7 @@ import YoutubePlayer from 'react-youtube-player';
 class AboutCompany extends Component {
   render () {
     return (
-      <div className="page_about_company bg_ptrn">
+      <div className="page_about_company bg_ptrn component_container">
 		    <div className="jumbotron">
 				  <div className="container"></div>
 				</div>

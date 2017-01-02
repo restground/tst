@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class AboutTST extends Component {
   render() {
     return (
-      <div className="page_about_tst bg_ptrn">
+      <div className="page_about_tst bg_ptrn component_container">
         <div className="jumbotron">
           <div className="container">
             
@@ -84,7 +84,7 @@ class AboutTST extends Component {
                 <div className="panel panel-default">
                   <div className="panel-heading" role="tab" id="headingFour">
                     <h4 className="panel-title">
-                      <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseFour">
+                      <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         4. TST PROGRAM의 두 가지 요인에 따른 9가지 유형
                       </a>
                     </h4>
