@@ -23,8 +23,8 @@ class Login extends Component {
 										<input type="password" className="form-control" id="password" placeholder="비밀번호" />
 									</div>
 									<div className="btn_login">
-										<button type="button" className="btn btn-block">회원가입</button>
 										<button type="button" className="btn btn-block">로그인</button>    
+                    <button type="button" className="btn btn-block btn_signup">회원가입</button>
 										<button type="button" className="btn-link btn-block">비밀번호를 잃어버리셨나요?</button>
 									</div>
 								</form>

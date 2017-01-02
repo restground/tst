@@ -4,6 +4,9 @@ const step = {};
 step.current=1;
 
 $( document ).ready(function() {
+  
+  //테스트 페이지 - 버튼 네비게이션 시작
+  
   $('.btn-link').click(function(){
     
     let name = this.name;
@@ -108,5 +111,9 @@ $( document ).ready(function() {
       step.current = step.select;
     } 
   });
+  
+  //테스트 페이지 - 버튼 네비게이션 종료
+  
+  //결제하기 페이지 - css 효과 적용
   
 });
