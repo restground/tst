@@ -364,6 +364,15 @@ p.text_small {
 }
 
 
+/* Page Register */
+
+.page_register .img_logo {
+  background-image: url(./images/login_logo.png);
+  width: 120px;
+  height: 112px;
+  margin: 40px auto;
+}
+
 /* Page 404 */
 
 div.page_404 {
@@ -409,6 +418,20 @@ div.page_404 {
 .txt_basic p{
 	margin-bottom: 1px;
 }
+
+/* form */
+
+.form-group, .form-inline .form-group .form-control {
+  text-align: center;
+  font-size:14px;
+  height:50px;
+  margin-top:15px;
+	width:100%
+}
+.page_login .form-group, .page_register .form-group {
+	margin-top:15px;
+}
+
 
 /* Buttons */
 
