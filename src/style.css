@@ -250,6 +250,12 @@ p.text_small {
 	background-position: center;
 }
 
+.page_about_company .bg_white {
+	padding:40px;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
 .up_mark {
 	background-image: url(images/img_up_mark.png);
 	width:100px;
