@@ -347,7 +347,7 @@ p.text_small {
   background-image: url(./images/login_logo.png);
   width: 120px;
   height: 112px;
-  margin: 75px auto;
+  margin: 75px auto 80px auto;
 	}
 
 .page_login input {
