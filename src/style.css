@@ -104,11 +104,21 @@ html, body, #root {
 }
 
 .page_payment > .container > .row > div.col-xs-12.col-md-4 {
-  margin-top: 20%;
+  margin-top: 18%;
 }
 
-.panel-body {
-  height: 170px;
+.page_payment .panel-body .row {
+  height: 150px;
+}
+
+.page_payment .panel-body {
+	padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page_payment .panel-heading {
+  padding: 16px 20px;
 }
 
 p.has_small {
@@ -123,17 +133,53 @@ p.text_small {
   margin-top: 15px;
 }
 .page_payment .panel-default>.panel-heading {
-  color: #fff;
-  background-color: #98182f;
-  border-color: #ddd;
+  color: #323232;
+  background-color: #f8f7f0;
+  border-color: #323232;
 	background-image: none;
 }
+
+.page_payment .form-control {
+	height: 50px;
+	color:#323232;
+	text-align: center;
+  background-color: #f8f7f0;
+	border-radius: 5px;
+}
+
+.page_payment .btn_paid {
+	background-color: #bfbfbf;
+	color: #fff;
+}
+
+/* 한가지 선택 되었을 때_mw */
+
+.selected .page_payment .panel-default>.panel-heading {
+	color: #fff;
+	background-color: #98182f;
+  border-color: #ddd;
+}
+
+.selected .page_payment .btn_paid {
+	background-color: #98182f;
+	color: #fff;
+}
+
+.selected .page_payment .form-control {
+	color:#fff;
+	background-color: #393a32;
+}
+
+.selected .page_payment .btn_paid:hover, .selected .page_payment .btn_paid:active, .selected .page_payment .btn_paid:focus {
+  background-color: #7f182f;
+  border-color: none;
+}
+
 
 
 /* Page about-tst */
 
 .page_about_tst {
-  /*padding-top:80px;*/
   padding-bottom: 100px;
   height: 100%;
   width: 100%;
@@ -162,13 +208,13 @@ p.text_small {
 }
 
 .page_about_tst .panel .panel-heading {
-    background-color: #f8f7f0;
-    background-image: none;
-    border: none;
-    border-bottom: 2px solid #eee;
-    padding-top: 25px;
-		padding-left:40px;
-    padding-bottom: 25px;
+  background-color: #f8f7f0;
+  background-image: none;
+  border: none;
+  border-bottom: 2px solid #eee;
+  padding-top: 25px;
+	padding-left:40px;
+  padding-bottom: 25px;
 }
 
 .page_about_tst .panel-group .panel+.panel {
@@ -341,14 +387,16 @@ button.navbar-toggle.collapsed {
 }
 
 a.btn_red.btn.btn-lg {
-  margin-top: 20px;
+  margin-top: 30px;
   width:50%;
   border: none;
   background-color: #98182f;
   background-image: none;
   color: #fff;
   text-shadow: none;
-  border-radius: 0;
+  border-radius: 5px;
+	font-size: 1em;
+	padding:20px 50px;
 }
 
 a.btn_red.btn.btn-lg:hover {
