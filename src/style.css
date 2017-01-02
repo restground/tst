@@ -189,14 +189,14 @@ p.text_small {
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin-left:600px;
+	margin-left:390px;
 }
 .down_mark {
 	background-image: url(./images/img_down_mark.png);
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin:0 auto;
+	margin-left:390px;
 }
 
 .page_about_company .video {
@@ -301,7 +301,7 @@ div.page_404 {
 
 .txt_basic {
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .txt_basic p{
@@ -338,10 +338,10 @@ a.btn_red.btn.btn-lg:hover {
 .container .btn {
     color:#fff;
     background-color: #98182f;
-    font-size:18px;
+    font-size:14px;
     font-weight: 400;
-    padding:14px 50px;
-		border-radius:10px;
+    padding:15px 50px;
+		border-radius:5px;
 		margin-top:50px;
 }
 .btn + .btn {
