@@ -215,6 +215,7 @@ p.text_small {
   padding-top: 25px;
 	padding-left:40px;
   padding-bottom: 25px;
+	color: #323232;
 }
 
 .page_about_tst .panel-group .panel+.panel {
@@ -336,22 +337,32 @@ p.text_small {
   background-image: url(./images/login_logo.png);
   width: 120px;
   height: 112px;
-  margin: 40px auto;
+  margin: 75px auto;
+	}
+
+.page_login .row {
+	margin-top: 50px;
 }
 
 .page_login input {
   margin-bottom: 20px;
   height: 60px;
+	text-align: center;
 }
 
-.page_login .btn_group_login .btn {
-  margin-top: 30px;
+.page_login .btn_group_login .btn + .btn {
+  margin-top: 20px;
+}
+
+.page_login .container .btn {
+	margin-top: 30px;
 }
 
 .page_login .btn-link {
   margin: 0 auto;
-  color: #000;
+  color: #323232;
   width: 100%;
+	font-size:12px;
   margin-top: 15px;
 }
 
@@ -360,7 +371,12 @@ p.text_small {
 }
 
 .page_login .btn.btn_signup:hover {
-  background-color: #aaa;
+  background-color: #323232;
+}
+
+.btn-link:hover {
+    font-weight: 500;
+    background-color: transparent;
 }
 
 
@@ -490,6 +506,7 @@ a.btn_red.btn.btn-lg:hover {
 
 .footer {
   width: 100%;
+	font-weight: 200;
 }
 
 .footer nav.navbar-fixed-bottom {
