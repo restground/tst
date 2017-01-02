@@ -17,6 +17,7 @@ import Payment from './components/Contents/Payment';
 import Test from './components/Contents/Test';
 
 import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
 import NoMatch from './components/Contents/NoMatch';
 
@@ -30,6 +31,7 @@ class App extends Component {
           <Match pattern="/about-tst" component={AboutTST}/>
           <Match pattern="/about-company" component={AboutCompany}/>
           <Match pattern="/payment" component={Payment}/>
+          <Match pattern="/register" component={Register}/>
           <Match pattern="/login" component={Login}/>
           <Match pattern="/test" component={Test}/>
           <Miss component={NoMatch} />

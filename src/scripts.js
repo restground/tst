@@ -18,17 +18,28 @@ $( document ).ready(function() {
     $(step.formOff).hide();
     $(step.formOn).toggle();
     
-    if(step.select === 1) {
+    if(step.select===1 && step.current ===10){
       $('.btn_before').hide();
-      $('.btn_after').css("padding", "14px 100px");
+      $('.btn_after').show();
+      $('.btn_after').css({"padding" : "14px 100px",
+                            "margin-left": "0"});
+    } else if(step.select===10 && step.current ===1){
+      $('.btn_after').hide();
+      $('.btn_before').show();
+      $('.btn_before').css("padding", "14px 100px");
+    } else if(step.select === 1) {
+      $('.btn_before').hide();
+      $('.btn_after').css({"padding" : "14px 100px",
+                            "margin-left": "0"});
     } else if(step.select === 10) {
       $('.btn_after').hide();
-      $('.btn_before').css("padding", "14px 100px");
+      $('.btn_before').css({"padding" : "14px 100px"});
     } else {
       $('.btn_before').show();
       $('.btn_after').show();
       $('.btn_before').css("padding","14px 50px");
-      $('.btn_after').css("padding","14px 50px");
+      $('.btn_after').css({"padding" : "14px 50px",
+                            "margin-left": "30px"});
     }
     
     step.current = step.select;
@@ -48,7 +59,8 @@ $( document ).ready(function() {
       
       if(step.select === 1) {
         $('.btn_before').hide();
-        $('.btn_after').css("padding", "14px 100px");
+        $('.btn_after').css({"padding" : "14px 100px",
+                            "margin-left": "0"});
       } else if(step.select === 10) {
         $('.btn_after').hide();
         $('.btn_before').css("padding", "14px 100px");
@@ -56,7 +68,8 @@ $( document ).ready(function() {
         $('.btn_before').show();
         $('.btn_after').show();
         $('.btn_before').css("padding","14px 50px");
-        $('.btn_after').css("padding","14px 50px");
+        $('.btn_after').css({"padding" : "14px 50px",
+                            "margin-left": "30px"});
       }
       
       step.current = step.select;
@@ -77,7 +90,8 @@ $( document ).ready(function() {
       
       if(step.select === 1) {
         $('.btn_before').hide();
-        $('.btn_after').css("padding", "14px 100px");
+        $('.btn_after').css({"padding" : "14px 100px",
+                            "margin-left": "0"});
         
       } else if(step.select === 10) {
         $('.btn_after').hide();
@@ -86,7 +100,8 @@ $( document ).ready(function() {
         $('.btn_before').show();
         $('.btn_after').show();
         $('.btn_before').css("padding","14px 50px");
-        $('.btn_after').css("padding","14px 50px");
+        $('.btn_after').css({"padding" : "14px 50px",
+                            "margin-left": "30px"});
         
       }
       

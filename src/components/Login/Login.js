@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Login extends Component {
   render() {
     return (
-      <div className="login bg_ptrn noscroll">
+      <div className="page_login bg_ptrn noscroll">
         <div className="content">
           <div className="container">
            <div className="row">
@@ -16,7 +16,7 @@ class Login extends Component {
                 <div className="btn_group_login">
                 <button type="button" className="btn btn_login btn-block">로그인</button>    
                 <button type="button" className="btn btn_signup btn-block">회원가입</button>
-                <button type="button" className="btn btn-block btn-link">비밀번호를 잃어버리셨나요?</button>
+                <button type="button" className="btn-link">비밀번호를 잃어버리셨나요?</button>
                 </div>
                 </div>
              </div>
