@@ -24,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <Router history={history}>
-        <div>
+        <div className="router_root">
           {location.pathname === '/test'? <div></div> :  <Header />}
           <Match pattern="/" exactly component={Home}/>
           <Match pattern="/about-tst" component={AboutTST}/>

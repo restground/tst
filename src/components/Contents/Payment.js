@@ -25,7 +25,7 @@ const specialPlusTitle = (
 class Payment extends Component {
   render() {
     return (
-      <div className="page_payment">   
+      <div className="page_payment noscroll">   
           <Grid>
             <Row>
               <Col xs={12} md={4} className="normal">
