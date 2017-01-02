@@ -185,15 +185,14 @@ p.text_small {
 }
 
 .up_mark {
-	background-image: url(images/img_up_mark.png);
+	background-image: url(./images/img_up_mark.png);
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin:0 auto;
+	margin-left:600px;
 }
-
 .down_mark {
-	background-image: url(images/img_down_mark.png);
+	background-image: url(./images/img_down_mark.png);
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
@@ -286,7 +285,13 @@ div.page_404 {
   background-image:url(images/bg_ptrn.png);
   background-repeat: repeat;
 }
-
+.bg_white {
+	background-color: #fff;
+	width: 100%;
+	padding:40px;
+	margin-top:10px;
+	margin-bottom: 60px;
+}
 /* Components */
 #root .panel-body {
   height: 100%;
