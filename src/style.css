@@ -122,6 +122,13 @@ p.text_small {
 .page_payment input {
   margin-top: 15px;
 }
+.page_payment .panel-default>.panel-heading {
+  color: #fff;
+  background-color: #98182f;
+  border-color: #ddd;
+	background-image: none;
+}
+
 
 /* Page about-tst */
 
@@ -130,6 +137,11 @@ p.text_small {
   padding-bottom: 100px;
   height: 100%;
   width: 100%;
+}
+.panel-body {
+	padding-left:40px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
 .page_about_tst .jumbotron {
@@ -154,8 +166,9 @@ p.text_small {
     background-image: none;
     border: none;
     border-bottom: 2px solid #eee;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+		padding-left:40px;
+    padding-bottom: 25px;
 }
 
 .page_about_tst .panel-group .panel+.panel {
@@ -195,7 +208,7 @@ p.text_small {
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin:0 auto;
+	margin-left:390px;
 }
 
 .down_mark {
@@ -203,7 +216,7 @@ p.text_small {
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin:0 auto;
+	margin-left:400px;
 }
 
 .page_about_company .video {
@@ -296,6 +309,15 @@ div.page_404 {
   background-repeat: repeat;
 }
 
+.bg_white {
+	background-color: #fff;
+	width: 100%;
+	padding:40px;
+	margin-top:10px;
+	margin-bottom: 60px;
+}
+
+
 /* Components */
 #root .panel-body {
   height: 100%;
@@ -305,7 +327,7 @@ div.page_404 {
 
 .txt_basic {
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .txt_basic p{
@@ -340,13 +362,13 @@ a.btn_red.btn.btn-lg:hover {
 }
 
 .container .btn {
-    color:#fff;
-    background-color: #98182f;
-    font-size:18px;
-    font-weight: 400;
-    padding:14px 50px;
-		border-radius:10px;
-		margin-top:50px;
+  color:#fff;
+  background-color: #98182f;
+  font-size:14px;
+  font-weight: 400;
+  padding:15px 50px;
+	border-radius:5px;
+	margin-top:50px;
 }
 .btn + .btn {
    	margin-left: 30px;
