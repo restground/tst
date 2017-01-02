@@ -392,16 +392,21 @@ p.text_small {
   background-image: url(./images/signup_logo.png);
   width: 120px;
   height: 112px;
-  margin: 20px auto 20px auto;
+  margin: 20px auto 30px auto;
 }
 
 .page_register .form-group {
-  height: 40px;
+  height: 45px;
+  margin-bottom: 25px;
+}
+
+.page_register .form-control {
+  height: 45px;
   margin-bottom: 30px;
 }
 
 .page_register .container {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .page_register .bg_white {
@@ -413,7 +418,7 @@ p.text_small {
 }
 
 .page_register .form_last {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 /* Page 404 */
