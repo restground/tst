@@ -276,6 +276,10 @@ p.text_small {
   margin: 40px auto;
 }
 
+.page_about_company .btn + .btn {
+  margin-left: 30px;
+}
+
 /* Page test */
 
 .page_test {
