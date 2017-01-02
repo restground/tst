@@ -1,0 +1,460 @@
+/* Noto Sans Load */
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/* Web Font initialized */
+
+html, html body {
+  font-family: 'Noto Sans KR'!important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic */
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+/* Header */
+
+.header { 
+  width: 100%;
+}
+
+.header nav.navbar {
+  border-bottom: none;
+  background-color: #61625a;
+  background-image: none;
+  color: #fff;
+  height: 80px;
+}
+
+.header nav.navbar > .container {
+  margin-top:15px;
+  background-color: #61625a;
+}
+
+.header ul.nav li a {
+  color: #fff;
+}
+
+.header ul.nav li a:hover, .header ul.nav li a:active {
+  color: #aaa;
+}
+
+/* Page */
+
+.component_container {
+  padding: 80px 0 100px 0;
+  width: 100%;
+  height: 100%;  
+}
+
+.noscroll {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 80px 0 100px 0;  
+}
+
+/* Page Home */
+
+.page_home .home_main {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/bg_home.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+.home_main_text {
+  text-align: center;
+  margin-top:80px;
+}
+
+.home_main_text h3 {
+  font-size: 2.7em;
+}
+
+/* 민우 수정 시작 */
+
+.page_home .home_main_text a.btn_red.btn-lg {
+	width:40%;
+}
+
+/* 민우 수정 끝 */
+
+/* Page Payment */
+
+.page_payment {
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url(./images/bg_ptrn.png);
+  background-repeat: repeat;
+  position: absolute;
+  height:100%;
+  width:100%;
+}
+
+.page_payment > .container > .row > div.col-xs-12.col-md-4 {
+  margin-top: 18%;
+}
+
+.page_payment .panel-body .row {
+  height: 150px;
+}
+
+.page_payment .panel-body {
+	padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page_payment .panel-heading {
+  padding: 16px 20px;
+}
+
+p.has_small {
+  margin-bottom: 0;
+}
+
+p.text_small {
+  font-size: 0.5em;
+}
+
+.page_payment input {
+  margin-top: 15px;
+}
+.page_payment .panel-default>.panel-heading {
+  color: #323232;
+  background-color: #f8f7f0;
+  border-color: #323232;
+	background-image: none;
+}
+
+.page_payment .form-control {
+	height: 50px;
+	color:#323232;
+	text-align: center;
+  background-color: #f8f7f0;
+	border-radius: 5px;
+}
+
+.page_payment .btn_paid {
+	background-color: #bfbfbf;
+	color: #fff;
+}
+
+/* 한가지 선택 되었을 때_mw */
+
+.selected .page_payment .panel-default>.panel-heading {
+	color: #fff;
+	background-color: #98182f;
+  border-color: #ddd;
+}
+
+.selected .page_payment .btn_paid {
+	background-color: #98182f;
+	color: #fff;
+}
+
+.selected .page_payment .form-control {
+	color:#fff;
+	background-color: #393a32;
+}
+
+.selected .page_payment .btn_paid:hover, .selected .page_payment .btn_paid:active, .selected .page_payment .btn_paid:focus {
+  background-color: #7f182f;
+  border-color: none;
+}
+
+
+
+/* Page about-tst */
+
+.page_about_tst {
+  padding-bottom: 100px;
+  height: 100%;
+  width: 100%;
+}
+.panel-body {
+	padding-left:40px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.page_about_tst .jumbotron {
+  background-image:url(images/bn_test.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:250px;
+}
+
+.page_about_tst .about_tst_main {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.page_about_tst .panel-group .panel {
+  border:none;
+}
+
+.page_about_tst .panel .panel-heading {
+  background-color: #f8f7f0;
+  background-image: none;
+  border: none;
+  border-bottom: 2px solid #eee;
+  padding-top: 25px;
+	padding-left:40px;
+  padding-bottom: 25px;
+}
+
+.page_about_tst .panel-group .panel+.panel {
+  margin-top:0;
+}
+
+.page_about_tst .panel-group .panel-body {
+  border-top:none!important;
+}
+
+/* page about-company */
+
+.page_about_company {
+  width:100%;
+  height:100%;
+  margin-bottom: 40px;
+}
+
+.page_about_company .jumbotron {
+	background-image: url(images/bn_company.png);
+	width: 100%;
+	height:250px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container + .jumbotron {
+	background-image: url(images/bn_company2.png);
+	width: 100%;
+	height:250px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.up_mark {
+	background-image: url(images/img_up_mark.png);
+	width:100px;
+	height:100px;
+	background-repeat: no-repeat;
+	margin-left:390px;
+}
+
+.down_mark {
+	background-image: url(images/img_down_mark.png);
+	width:100px;
+	height:100px;
+	background-repeat: no-repeat;
+	margin-left:400px;
+}
+
+.page_about_company .video {
+  margin: 40px auto;
+}
+
+/* Page test */
+
+.page_test {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size:16px;
+	text-align: center;
+}
+
+.page_test .btn-link {
+  color:#323232;
+  font-size:12px;
+	margin-left:0;
+}
+.btn-link + .btn-link {
+  margin-left:20px;
+}
+.btn-link:hover {
+  font-weight: 600; 
+	background-color: transparent;
+}
+
+.page_test .page_test_body .row {
+  display: none;
+}
+
+.page_test .btn_test_last {
+  display: none;
+}
+
+.page_test_body {
+  background-color:#f8f7f0;
+  width:100%;
+  height:600px;
+	margin-top:30px;
+	padding:60px 40px;
+	text-align: left;
+	font-size:14px;
+}
+
+.leftbox {
+	float:left;
+	width:50%;
+	height:100%;
+	padding-right:10px;
+}
+.rightbox {
+	float:right;
+	width:50%;
+	height:100%;
+	padding-left:10px;
+	padding-bottom: 40px;
+}
+.checkbox {
+	font-size:16px;
+}
+.checkbox + .checkbox label{
+	margin-top:40px;	
+}
+
+/* Page Login */
+
+
+
+/* Page 404 */
+
+div.page_404 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page_404 > .container {
+  width: 100%;
+  margin-top: 20%;
+  text-align: center;
+}
+
+/* Background */
+
+.bg_ptrn {
+  background-image:url(images/bg_ptrn.png);
+  background-repeat: repeat;
+}
+
+.bg_white {
+	background-color: #fff;
+	width: 100%;
+	padding:40px;
+	margin-top:10px;
+	margin-bottom: 60px;
+}
+
+
+/* Components */
+#root .panel-body {
+  height: 100%;
+}
+
+/* text */
+
+.txt_basic {
+	text-align: center;
+	font-size: 16px;
+}
+
+.txt_basic p{
+	margin-bottom: 1px;
+}
+
+/* Buttons */
+
+button.navbar-toggle.collapsed {
+  border: none;
+}
+
+a.btn_red.btn.btn-lg {
+  margin-top: 30px;
+  width:50%;
+  border: none;
+  background-color: #98182f;
+  background-image: none;
+  color: #fff;
+  text-shadow: none;
+  border-radius: 5px;
+	font-size: 1em;
+	padding:20px 50px;
+}
+
+a.btn_red.btn.btn-lg:hover {
+  background-color: #7f182f;
+}
+
+.navbar-inverse button.navbar-toggle.collapsed:hover, .navbar-inverse button.navbar-toggle.collapsed:active {
+  color: #aaa;
+  background-color: rgba(0,0,0,0);
+  border:none;
+}
+
+.container .btn {
+  color:#fff;
+  background-color: #98182f;
+  font-size:14px;
+  font-weight: 400;
+  padding:15px 50px;
+	border-radius:5px;
+	margin-top:50px;
+}
+.btn + .btn {
+   	margin-left: 30px;
+}
+
+/* button hover, active 됐을 때  */
+
+.container .btn:hover, .container .btn :active, .container .btn:focus {
+    color:#fff;
+    background-color: #7f182f;
+    border-color: none;
+}
+
+/* Video */
+
+.video div {
+  margin: 0 auto;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+}
+
+.footer nav.navbar-fixed-bottom {
+  border: none;
+  background-image: none;
+}
+
+.footer nav > .container {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+@media screen and (max-height: 768px) {
+  div.home_main_text {
+    margin-top: 10%;
+  }
+}
