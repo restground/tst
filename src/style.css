@@ -288,6 +288,7 @@ p.text_small {
   height: 100%;
   font-size:16px;
 	text-align: center;
+  padding-top: 20px;
 }
 
 .page_test .btn-link {

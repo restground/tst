@@ -4,7 +4,7 @@ import { ProgressBar } from 'react-bootstrap';
 class Test extends Component {
   render() {
     return (
-      <div className="page_test noscroll bg_ptrn">
+      <div className="page_test bg_ptrn">
         <div className="container">
 					<div className="row">
 						<div className="col-md-8 col-md-offset-2">
