@@ -114,8 +114,14 @@ $( document ).ready(function() {
   
   //테스트 페이지 - 버튼 네비게이션 종료
   
-  //결제하기 페이지 - css 효과 적용
+  
 
+});
+
+
+//결제하기 페이지 - css 효과 적용
+
+$( ".page_payment").ready(function(){
   $(".normal .form-group").click(function() {    
     if($(".special").hasClass("selected")){
       $(".special").removeClass("selected");
@@ -144,14 +150,24 @@ $( document ).ready(function() {
     if($(".special").hasClass("selected")){
       $(".special").removeClass("selected");
       $(".special_plus").addClass("selected");
+     
     }else if($(".normal").hasClass("selected")){
       $(".normal").removeClass("selected");
       $(".special_plus").addClass("selected");
+      
     }else {
       $(".special_plus").addClass("selected");
+    
     }
   });
   
-  //결제하기 페이지 - css 효과 종료
-  
+  $("body").click(function(e){
+    if(!$(".form-group, .normal, .special, .special_plus").has(e.target).length){
+      $(".normal").removeClass("selected");
+      $(".special").removeClass("selected");
+      $(".special_plus").removeClass("selected");
+    }
+  });
 });
+
+//결제하기 페이지 - css 효과 종료
