@@ -115,5 +115,43 @@ $( document ).ready(function() {
   //테스트 페이지 - 버튼 네비게이션 종료
   
   //결제하기 페이지 - css 효과 적용
+
+  $(".normal .form-group").click(function() {    
+    if($(".special").hasClass("selected")){
+      $(".special").removeClass("selected");
+      $(".normal").addClass("selected");
+    }else if($(".special_plus").hasClass("selected")){
+      $(".special_plus").removeClass("selected");
+      $(".normal").addClass("selected");
+    }else {
+      $(".normal").addClass("selected");
+    }
+  });
+  
+  $(".special .form-group").click(function() {    
+    if($(".normal").hasClass("selected")){
+      $(".normal").removeClass("selected");
+      $(".special").addClass("selected");
+    }else if($(".special_plus").hasClass("selected")){
+      $(".special_plus").removeClass("selected");
+      $(".special").addClass("selected");
+    }else {
+      $(".special").addClass("selected");
+    }
+  });
+  
+  $(".special_plus .form-group").click(function() {    
+    if($(".special").hasClass("selected")){
+      $(".special").removeClass("selected");
+      $(".special_plus").addClass("selected");
+    }else if($(".normal").hasClass("selected")){
+      $(".normal").removeClass("selected");
+      $(".special_plus").addClass("selected");
+    }else {
+      $(".special_plus").addClass("selected");
+    }
+  });
+  
+  //결제하기 페이지 - css 효과 종료
   
 });

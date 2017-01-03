@@ -154,23 +154,23 @@ p.text_small {
 
 /* 한가지 선택 되었을 때_mw */
 
-.selected .page_payment .panel-default>.panel-heading {
+.page_payment .selected .panel-default>.panel-heading {
 	color: #fff;
 	background-color: #98182f;
   border-color: #ddd;
 }
 
-.selected .page_payment .btn_paid {
+.page_payment .selected input.btn_paid {
 	background-color: #98182f;
 	color: #fff;
 }
 
-.selected .page_payment .form-control {
+.page_payment .selected .form-control {
 	color:#fff;
 	background-color: #393a32;
 }
 
-.selected .page_payment .btn_paid:hover, .selected .page_payment .btn_paid:active, .selected .page_payment .btn_paid:focus {
+.page_payment .selected .btn_paid:hover, .page_payment .selected .btn_paid:active, .page_payment .selected .btn_paid:focus {
   background-color: #7f182f;
   border-color: none;
 }

@@ -53,7 +53,7 @@ class Payment extends Component {
                     <option value="normal_package_3">Package 3 (65개)</option>
                   </FormControl>
                   <FormControl type="text" placeholder="수량 입력"/>
-                  <FormControl type="submit" value="결제하기" />
+                  <FormControl type="submit" className="btn_paid" value="결제하기" />
                 </FormGroup>
                 </Form>
               </Col>
@@ -82,7 +82,7 @@ class Payment extends Component {
                     <option value="normal_package_3">Package 3 (50개)</option>
                   </FormControl>
                   <FormControl type="text" placeholder="수량 입력"/>
-                  <FormControl type="submit" value="결제하기" />
+                  <FormControl type="submit" className="btn_paid" value="결제하기" />
                 </FormGroup>
               </Col> 
               <Col xs={12} md={4} className="special_plus">
@@ -106,7 +106,7 @@ class Payment extends Component {
                     <option value="specialPlus_package">부모 + 자녀 Package</option>
                   </FormControl>
                   <FormControl type="text" placeholder="수량 입력"/>
-                  <FormControl type="submit" value="결제하기" />
+                  <FormControl type="submit" className="btn_paid" value="결제하기" />
                 </FormGroup>
               </Col> 
             </Row>
