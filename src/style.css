@@ -261,7 +261,7 @@ p.text_small {
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin-left:390px;
+	margin-left:400px;
 }
 
 .down_mark {
@@ -347,21 +347,21 @@ p.text_small {
   background-image: url(./images/login_logo.png);
   width: 120px;
   height: 112px;
-  margin: 75px auto;
+  margin: 75px auto 80px auto;
 	}
 
 .page_login input {
   margin-bottom: 20px;
-  height: 60px;
+  height: 50px;
 	text-align: center;
 }
 
-.page_login .btn_group_login .btn + .btn {
+.page_login .btn + .btn {
   margin-top: 20px;
 }
 
 .page_login .container .btn {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .page_login .btn-link {
