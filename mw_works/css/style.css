@@ -1,266 +1,456 @@
-/* git하기 이전에 작업한 CSS */
+/* Noto Sans Load */
 
-.root .header {
-    height: 80px;
-    background-color: #61625a;
-    color:#fff;
-    line-height: 22px;
-    font-size: 20px;
-}
-.root .footer {
-    height:100px;
-    background-color: #393a32;
-    text-align: center;
-    color: #fff;
-    line-height: 20px;
-    font-size: 12px;
-    font-weight: 200;
-}
-.nav a#trigger{
-    display: none;
-}
-.btn_group_login .btn-lg .btn_default {
-    font-size:16px;
-    font-weight: 200;
-    padding:12px 16px;
-}
-.btn_group_login .btn_login{
-    color:#fff;
-    background-color: #98182f;
-    font-size:16px;
-    font-weight: 200;
-    padding:12px 16px;
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/* Web Font initialized */
+
+html, html body {
+  font-family: 'Noto Sans KR'!important;
 }
 
-.btn_group_login .btn_signup{
-    color:#fff;
-    background-color: #393a32;
-    font-weight: 200;
-    font-size:16px;
-    padding:12px 16px;
+body {
+  margin: 0;
+  padding: 0;
 }
-.content .btn_group_login .btn_signup {
-    margin-top: 2%;
+
+/* Basic */
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
 }
-.content .btn_group_login .btn-link {
-    margin-top: 4%;
-    text-align: center;
-    color:#393a32;
-    font-size:12px;
+
+/* Header */
+
+.header { 
+  width: 100%;
 }
-.btn_nav>li>a{
-    font-size:14px;
-    line-height: 22px;
-    color:#fff;
-    font-weight: 200;
+
+.header nav.navbar {
+  border-bottom: none;
+  background-color: #61625a;
+  background-image: none;
+  color: #fff;
+  height: 80px;
 }
-.navbar-text .nav-pills > li + li {
-  margin-left: 12px;
+
+.header nav.navbar > .container {
+  margin-top:15px;
+  background-color: #61625a;
 }
-.navbar-text .nav>li>a:hover,.navbar-text .nav>li>a:focus{
-    color:#393a32;
-    font-weight: 400;
-    border-radius: 3px;
+
+.header ul.nav li a {
+  color: #fff;
 }
-.img_logo .form-group {
-    margin:10% 0;
+
+.header ul.nav li a:hover, .header ul.nav li a:active {
+  color: #aaa;
 }
-.navbar-header {
-    width:100%;
+
+/* Page */
+
+.component_container {
+  padding: 80px 0 100px 0;
+  width: 100%;
+  height: 100%;  
 }
-.navbar-brand {
-    margin-top:8px;
+
+.noscroll {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 80px 0 100px 0;  
 }
-.btn_login .btn-link:focus {
-    outline: none;
+
+/* Page Home */
+
+.page_home .home_main {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/bg_home.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
 }
-.btn-link .glyphicon {
-    font-size: 20px;
-    font-weight: 100;
-    color:#fff;
+
+.home_main_text {
+  text-align: center;
+  margin-top:80px;
 }
-.footer { 
-    padding-top:2%;
+
+.home_main_text h3 {
+  font-size: 2.7em;
 }
-.content_home{
-    margin-top:3%;
-    width:100%;
-    height:90vh;
-    background-image: url("../images/bg_home.png");
-    background-repeat: no-repeat;
+
+/* 민우 수정 시작 */
+
+.page_home .home_main_text a.btn_red.btn-lg {
+	width:40%;
 }
-.txt_main { 
-    font-size: 30px;
-    line-height: 45px;
-    font-weight: 500;
-    text-align: center;
-    margin-top:40%; 
+
+/* 민우 수정 끝 */
+
+/* Page Payment */
+
+.page_payment {
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url(./images/bg_ptrn.png);
+  background-repeat: repeat;
+  position: absolute;
+  height:100%;
+  width:100%;
 }
-.btn_group_login .btn_home{
-    color:#fff;
-    background-color: #98182f;
-    font-size:16px;
-    font-weight: 200;
-    padding:12px 16px;
-    margin-top:10%;
+
+.page_payment > .container > .row > div.col-xs-12.col-md-4 {
+  margin-top: 18%;
+}
+
+.page_payment .panel-body .row {
+  height: 150px;
+}
+
+.page_payment .panel-body {
+	padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page_payment .panel-heading {
+  padding: 16px 20px;
+}
+
+p.has_small {
+  margin-bottom: 0;
+}
+
+p.text_small {
+  font-size: 0.5em;
+}
+
+.page_payment input {
+  margin-top: 15px;
+}
+.page_payment .panel-default>.panel-heading {
+  color: #323232;
+  background-color: #f8f7f0;
+  border-color: #323232;
+	background-image: none;
+}
+
+.page_payment .form-control {
+	height: 50px;
+	color:#323232;
+	text-align: center;
+  background-color: #f8f7f0;
+	border-radius: 5px;
+}
+
+.page_payment .btn_paid {
+	background-color: #bfbfbf;
+	color: #fff;
+}
+
+/* 한가지 선택 되었을 때_mw */
+
+.page_payment .selected .panel-default>.panel-heading {
+	color: #fff;
+	background-color: #98182f;
+  border-color: #ddd;
+}
+
+.page_payment .selected input.btn_paid {
+	background-color: #98182f;
+	color: #fff;
+}
+
+.page_payment .selected .form-control {
+	color:#fff;
+	background-color: #393a32;
+}
+
+.page_payment .selected .btn_paid:hover, .page_payment .selected .btn_paid:active, .page_payment .selected .btn_paid:focus {
+  background-color: #7f182f;
+  border-color: none;
 }
 
 
-/* git하기 이전에 작업한 CSS - 여기까지 */
 
-/* page_signup */
+/* Page about-tst */
 
-.page_signup {
-	width: 100%;
-	height: 860px;
-	padding-top:4%;
+.page_about_tst {
+  padding-bottom: 100px;
+  height: 100%;
+  width: 100%;
 }
-.page_signup .bg_white {
-	margin-top:20px;
-}
-.page_signup .img_logo {
-	width: 120px;
-	height: 112px;
-	margin-left:225px;
-	background-image: url(../images/signup_logo.png);
-	margin-bottom: 20px;
-}
-.page_signup .form-group {
-	margin-top:5px;
-}
-.page_signup .col-md-6 {
-	margin-left:300px;
-}
-.page_signup .col-md-8{
-	margin-left: 100px;
-}
-.page_signup .glyphicon {
-	margin-top: 28px;
-	font-size: 11px;
-}
-.form-inline p {
-	font-size:11px;
+.panel-body {
+	padding-left:40px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
-
-/* page_login */
-
-.page_login {
-	width: 100%;
-	height: 860px;
-	padding-top:4%;
-}
-.page_login .img_logo {
-	width: 120px;
-	height: 112px;
-	margin-top:150px;
-  margin-left:395px;
-	background-image: url(../images/login_logo.png);
-	margin-bottom: 20px;
+.page_about_tst .jumbotron {
+  background-image:url(images/bn_test.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:250px;
 }
 
-.form-control + .form-control {
-	margin-top:15px;
-}
-.btn_login {
-	margin-top:40px;
+.page_about_tst .about_tst_main {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
+.page_about_tst .panel-group .panel {
+  border:none;
+}
 
+.page_about_tst .panel .panel-heading {
+  background-color: #f8f7f0;
+  background-image: none;
+  border: none;
+  border-bottom: 2px solid #eee;
+  padding-top: 25px;
+	padding-left:40px;
+  padding-bottom: 25px;
+	color: #323232;
+}
 
-/* page_company */
+.page_about_tst .panel-group .panel+.panel {
+  margin-top:0;
+}
+
+.page_about_tst .panel-group .panel-body {
+  border-top:none!important;
+}
+
+/* page about-company */
 
 .page_about_company {
   width:100%;
-  height:auto;
-	padding-top:4%;
-  }
+  height:100%;
+  margin-bottom: 40px;
+}
+
 .page_about_company .jumbotron {
-	background-image: url(../images/bn_company.png);
+	background-image: url(images/bn_company.png);
 	width: 100%;
 	height:250px;
 	background-repeat: no-repeat;
 	background-position: center;
-	}
+}
 
 .container + .jumbotron {
-	background-image: url(../images/bn_company2.png);
+	background-image: url(images/bn_company2.png);
 	width: 100%;
 	height:250px;
 	background-repeat: no-repeat;
 	background-position: center;
-	}
+}
+
+.page_about_company .bg_white {
+	padding:40px;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
 
 .up_mark {
-	background-image: url(../images/img_up_mark.png);
+	background-image: url(images/img_up_mark.png);
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin:0 auto;
-}
-.down_mark {
-	background-image: url(../images/img_down_mark.png);
-	width:100px;
-	height:100px;
-	background-repeat: no-repeat;
-	margin:0 auto;
-}
-.video {
-	background-color: #323232;
-	width:600px;
-	height:400px;
-	margin: 0 auto;
+	margin-left:400px;
 }
 
-/* page_test */
+.down_mark {
+	background-image: url(images/img_down_mark.png);
+	width:100px;
+	height:100px;
+	background-repeat: no-repeat;
+	margin-left:400px;
+}
+
+.page_about_company .video {
+  margin: 40px auto;
+}
+
+.page_about_company .btn + .btn {
+  margin-left: 30px;
+}
+
+/* Page test */
 
 .page_test {
-	padding-top:60px;
-	font-size:15px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size:16px;
 	text-align: center;
+  padding-top: 20px;
+}
+
+.page_test .btn-link {
+  color:#323232;
+  font-size:12px;
+	margin-left:0;
+}
+.btn-link + .btn-link {
+  margin-left:20px;
 }
 .btn-link:hover {
   font-weight: 600; 
 	background-color: transparent;
 }
+
+.page_test .page_test_body .row {
+  display: none;
+}
+
+.page_test .btn_test_last {
+  display: none;
+}
+
 .page_test_body {
   background-color:#f8f7f0;
   width:100%;
- 	margin-top:30px;
-	padding:28px 30px;
+  height:600px;
+	margin-top:30px;
+	padding:60px 40px;
 	text-align: left;
 	font-size:14px;
 }
-.page_test_body .checkbox label{
-	font-size:14px;
-	font-weight: 500;
+
+.leftbox {
+	float:left;
+	width:50%;
+	height:100%;
+	padding-right:10px;
+}
+.rightbox {
+	float:right;
+	width:50%;
+	height:100%;
+	padding-left:10px;
+	padding-bottom: 40px;
+}
+.checkbox {
+	font-size:16px;
 }
 .checkbox + .checkbox label{
-	margin-top:25px;
-	
-}
-.container .row .col-md-12 {
-	width: 80%;
-	margin-left:114px;
-}
-.page_test .container .page_test_body .row{
-	width:100%;
-	margin-left:0;
-	height: 410px;
+	margin-top:40px;	
 }
 
-/* background */
+/* Page Login */
+
+.page_login .img_logo {
+  background-image: url(./images/login_logo.png);
+  width: 120px;
+  height: 112px;
+  margin: 75px auto 80px auto;
+	}
+
+.page_login input {
+  margin-bottom: 20px;
+  height: 50px;
+	text-align: center;
+}
+
+.page_login .btn + .btn {
+  margin-top: 20px;
+}
+
+.page_login .container .btn {
+	margin-top: 20px;
+}
+
+.page_login .btn-link {
+  margin: 0 auto;
+  color: #323232;
+  width: 100%;
+	font-size:12px;
+  margin-top: 15px;
+}
+
+.page_login .btn.btn_signup {
+  background-color: #393a32;
+}
+
+.page_login .btn.btn_signup:hover {
+  background-color: #323232;
+}
+
+.btn-link:hover {
+    font-weight: 500;
+    background-color: transparent;
+}
+
+
+/* Page Register */
+
+.page_register .img_logo {
+  background-image: url(./images/signup_logo.png);
+  width: 120px;
+  height: 112px;
+  margin: 20px auto 30px auto;
+}
+
+.page_register .form-group {
+  height: 45px;
+  margin-bottom: 25px;
+}
+
+.page_register .form-control {
+  height: 45px;
+  margin-bottom: 30px;
+}
+
+.page_register .container {
+  margin-top: 20px;
+}
+
+.page_register .bg_white {
+  padding-bottom: 20px;
+}
+
+.page_register form p {
+  font-size: 12px;
+}
+
+.page_register .form_last {
+  margin-bottom: 10px;
+}
+
+/* Page 404 */
+
+div.page_404 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page_404 > .container {
+  width: 100%;
+  margin-top: 20%;
+  text-align: center;
+}
+
+/* Background */
+
+.bg_ptrn {
+  background-image:url(images/bg_ptrn.png);
+  background-repeat: repeat;
+}
 
 .bg_white {
 	background-color: #fff;
-	width: 100%;
-	padding:40px;
-	margin-top:10px;
-	margin-bottom: 60px;
 }
-.bg_ptrn {
-  background-image:url(../images/bg_ptrn.png);
-	background-repeat: repeat;
+
+
+/* Components */
+#root .panel-body {
+  height: 100%;
 }
 
 /* text */
@@ -269,24 +459,45 @@
 	text-align: center;
 	font-size: 16px;
 }
+
 .txt_basic p{
 	margin-bottom: 1px;
 }
 
 /* form */
 
-.form-group, .form-inline .form-group .form-control {
-  text-align: center;
-  font-size:14px;
-  height:50px;
-  margin-top:15px;
-	width:100%
-}
-.page_login .form-group, .page_signup .form-group {
-	margin-top:15px;
+.form-group, .form-group label, .form-group input.form-control {
+  width: 100%;
 }
 
-/* button */
+/* Buttons */
+
+button.navbar-toggle.collapsed {
+  border: none;
+}
+
+a.btn_red.btn.btn-lg {
+  margin-top: 30px;
+  width:50%;
+  border: none;
+  background-color: #98182f;
+  background-image: none;
+  color: #fff;
+  text-shadow: none;
+  border-radius: 5px;
+	font-size: 1em;
+	padding:20px 50px;
+}
+
+a.btn_red.btn.btn-lg:hover {
+  background-color: #7f182f;
+}
+
+.navbar-inverse button.navbar-toggle.collapsed:hover, .navbar-inverse button.navbar-toggle.collapsed:active {
+  color: #aaa;
+  background-color: rgba(0,0,0,0);
+  border:none;
+}
 
 .container .btn {
   color:#fff;
@@ -297,71 +508,41 @@
 	border-radius:5px;
 	margin-top:50px;
 }
-.page_about_company .btn + .btn, .btn_test .btn + .btn {
-  margin-left: 30px;
-}
-.btn_test .btn, .btn_login .btn {
-	margin-top:10px;
-	padding:15px 70px;
-	font-size:14px;
-	border-radius: 5px;
-	background-color:#393a32;
-}
-.btn_test .btn + .btn, .btn_login .btn + .btn {
-	background-color:#98182f;
-}
-.page_test .btn-link, .page_login .btn-link {
-  color:#323232;
-  font-size:12px;
-	margin-left:0;
-}
-.btn_signup .btn {
-	margin-top:40px;
+
+/* button hover, active 됐을 때  */
+
+.container .btn:hover, .container .btn :active, .container .btn:focus {
+    color:#fff;
+    background-color: #7f182f;
+    border-color: none;
 }
 
-/* page_test에만 적용된 button */
+/* Video */
 
-.page_test .btn-link {
-  color:#323232;
-  font-size:12px;
-	margin-left:0;
-}
-.btn-link + .btn-link {
-  margin-left:25px;
-}
-.btn_test {
- 	position: absolute;
-	bottom:150px;
-	left:762px;
+.video div {
+  margin: 0 auto;
 }
 
-/* page_login에만 적용된 button */
+/* Footer */
 
-.btn-block {
-	margin-top:50px;
-}
-.page_login .btn-block + .btn-block {
-	margin-top:15px;
+.footer {
+  width: 100%;
+	font-weight: 200;
 }
 
-/* button hover, active 됐을 때(about_company, page_test에 적용)  */
-
-.container .btn:hover, .container .btn :active, .container .btn:focus, .btn_test .btn + .btn:hover, .btn_test .btn + .btn:active, .btn_test .btn + .btn:focus, .btn_login .btn + .btn:hover, .btn_login .btn + .btn:active, .btn_login .btn + .btn:focus {
-  color:#fff;
-  background-color: #7f182f;
-  border-color: none;
-}
-.btn_test .btn:hover, .btn_test .btn:active, .btn_test .btn:focus, .btn_login .btn:hover, .btn_login .btn:active, .btn_login .btn:focus  {
-	background-color:#323232;
+.footer nav.navbar-fixed-bottom {
+  border: none;
+  background-image: none;
 }
 
+.footer nav > .container {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
 
-body { padding-bottom: 70px; }
-html body { height:100%; }
-
-
-
-
-    
-
-
+@media screen and (max-height: 768px) {
+  div.home_main_text {
+    margin-top: 10%;
+  }
+}
