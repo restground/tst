@@ -16,18 +16,23 @@ import AboutCompany from './components/Contents/AboutCompany';
 import Payment from './components/Contents/Payment';
 import Test from './components/Contents/Test';
 
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
+
 import NoMatch from './components/Contents/NoMatch';
 
 class App extends Component {
   render() {
     return (
       <Router history={history}>
-        <div>
+        <div className="router_root">
           {location.pathname === '/test'? <div></div> :  <Header />}
           <Match pattern="/" exactly component={Home}/>
           <Match pattern="/about-tst" component={AboutTST}/>
           <Match pattern="/about-company" component={AboutCompany}/>
           <Match pattern="/payment" component={Payment}/>
+          <Match pattern="/register" component={Register}/>
+          <Match pattern="/login" component={Login}/>
           <Match pattern="/test" component={Test}/>
           <Miss component={NoMatch} />
           {location.pathname === '/test'? <div></div> :  <Footer />}

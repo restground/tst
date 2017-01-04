@@ -154,23 +154,23 @@ p.text_small {
 
 /* 한가지 선택 되었을 때_mw */
 
-.page_payment .selected .panel-default>.panel-heading {
+.selected .page_payment .panel-default>.panel-heading {
 	color: #fff;
 	background-color: #98182f;
   border-color: #ddd;
 }
 
-.page_payment .selected input.btn_paid {
+.selected .page_payment .btn_paid {
 	background-color: #98182f;
 	color: #fff;
 }
 
-.page_payment .selected .form-control {
+.selected .page_payment .form-control {
 	color:#fff;
 	background-color: #393a32;
 }
 
-.page_payment .selected .btn_paid:hover, .page_payment .selected .btn_paid:active, .page_payment .selected .btn_paid:focus {
+.selected .page_payment .btn_paid:hover, .selected .page_payment .btn_paid:active, .selected .page_payment .btn_paid:focus {
   background-color: #7f182f;
   border-color: none;
 }
@@ -215,7 +215,6 @@ p.text_small {
   padding-top: 25px;
 	padding-left:40px;
   padding-bottom: 25px;
-	color: #323232;
 }
 
 .page_about_tst .panel-group .panel+.panel {
@@ -250,18 +249,12 @@ p.text_small {
 	background-position: center;
 }
 
-.page_about_company .bg_white {
-	padding:40px;
-	margin-top: 10px;
-	margin-bottom: 60px;
-}
-
 .up_mark {
 	background-image: url(images/img_up_mark.png);
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin-left:400px;
+	margin-left:390px;
 }
 
 .down_mark {
@@ -276,10 +269,6 @@ p.text_small {
   margin: 40px auto;
 }
 
-.page_about_company .btn + .btn {
-  margin-left: 30px;
-}
-
 /* Page test */
 
 .page_test {
@@ -288,7 +277,6 @@ p.text_small {
   height: 100%;
   font-size:16px;
 	text-align: center;
-  padding-top: 20px;
 }
 
 .page_test .btn-link {
@@ -344,83 +332,7 @@ p.text_small {
 
 /* Page Login */
 
-.page_login .img_logo {
-  background-image: url(./images/login_logo.png);
-  width: 120px;
-  height: 112px;
-  margin: 75px auto 80px auto;
-	}
 
-.page_login input {
-  margin-bottom: 20px;
-  height: 50px;
-	text-align: center;
-}
-
-.page_login .btn + .btn {
-  margin-top: 20px;
-}
-
-.page_login .container .btn {
-	margin-top: 20px;
-}
-
-.page_login .btn-link {
-  margin: 0 auto;
-  color: #323232;
-  width: 100%;
-	font-size:12px;
-  margin-top: 15px;
-}
-
-.page_login .btn.btn_signup {
-  background-color: #393a32;
-}
-
-.page_login .btn.btn_signup:hover {
-  background-color: #323232;
-}
-
-.btn-link:hover {
-    font-weight: 500;
-    background-color: transparent;
-}
-
-
-/* Page Register */
-
-.page_register .img_logo {
-  background-image: url(./images/signup_logo.png);
-  width: 120px;
-  height: 112px;
-  margin: 20px auto 30px auto;
-}
-
-.page_register .form-group {
-  height: 45px;
-  margin-bottom: 25px;
-}
-
-.page_register .form-control {
-  height: 45px;
-  margin-bottom: 30px;
-}
-
-.page_register .container {
-  margin-top: 20px;
-}
-
-.page_register .bg_white {
-  padding-bottom: 20px;
-}
-
-.page_register form p {
-  font-size: 12px;
-}
-
-.page_register .form_last {
-  margin-bottom: 10px;
-}
 
 /* Page 404 */
 
@@ -445,6 +357,10 @@ div.page_404 {
 
 .bg_white {
 	background-color: #fff;
+	width: 100%;
+	padding:40px;
+	margin-top:10px;
+	margin-bottom: 60px;
 }
 
 
@@ -462,12 +378,6 @@ div.page_404 {
 
 .txt_basic p{
 	margin-bottom: 1px;
-}
-
-/* form */
-
-.form-group, .form-group label, .form-group input.form-control {
-  width: 100%;
 }
 
 /* Buttons */
@@ -508,6 +418,9 @@ a.btn_red.btn.btn-lg:hover {
 	border-radius:5px;
 	margin-top:50px;
 }
+.btn + .btn {
+   	margin-left: 30px;
+}
 
 /* button hover, active 됐을 때  */
 
@@ -527,7 +440,6 @@ a.btn_red.btn.btn-lg:hover {
 
 .footer {
   width: 100%;
-	font-weight: 200;
 }
 
 .footer nav.navbar-fixed-bottom {
