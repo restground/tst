@@ -15,55 +15,224 @@
 	<![endif]-->
   </head>
   <body>
-      <div class="tst">
-        <div class="header navbar navbar-default navbar-fixed-top">
-          <div class="container">
-              <nav class="navbar-header">
-                  <div class="row">
-                  <a class="navbar-brand" href="http://www.tstprogram.com">
-                        <img alt="Brand" src="images/img_adminlogo.png">
-                    </a>
-                  <nav class="navbar-text navbar-right">
-                     <ul class="nav nav-pills btn_nav hidden-sm hidden-xs">
-                            <li role="presentation">
-                                <a href="testinfo.html">테스트소개</a></li>
-                            <li role="presentation">
-                                <a href="companyinfo.html">회사소개</a></li>
-                            <li role="presentation">
-                                <a href="signup.html">회원가입</a></li>
-                            <li role="presentation">
-                                <a href="login2.html">로그인</a></li>
-                    </ul>
-                      <button type="button" class="btn btn-link hidden-md hidden-lg">
-                       <span class="glyphicon glyphicon-menu-hamburger " aria-hidden="true"></span></button>
-                  </nav>
+  	<div class="root">
+			<div class="header">
+          <nav class="navbar">
+						<div class="container">
+							<a class="navbar-brand" href="http://www.tstprogram.com">
+									<img alt="Brand" src="images/img_adminlogo.png">
+								</a>
+								<nav class="navbar-text">
+									<ul class="nav nav-pills btn_nav hidden-sm hidden-xs">
+										<li role="presentation">
+											<a href="testinfo.html">사용자관리</a></li>
+										<li role="presentation">
+											<a href="companyinfo.html">테스트관리</a></li>
+										<li role="presentation">
+											<a href="signup.html">결제관리</a></li>
+								  </ul>
+									<button type="button" class="btn btn-link hidden-md hidden-lg">
+										<span class="glyphicon glyphicon-menu-hamburger " aria-hidden="true"></span>
+									</button>
                 </nav>
-              </div>
-          </div>
-        
-        <div class="content_home">
-          <div class="container">
-           <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-6 col-md-offset-4 col-sm-offset-3 col-xs-offset-3">
-                   <div class="txt_main">TST PROGRAM<br>학습 성향 및 방법에 관한 검사</div>
-                    <div class=btn_group_login>
-                        <button type="button" class="btn btn_home btn-block active">테스트 시작하기</button></div>    
-                </div>
-             </div>
-           </div>
-         </div>
-        <div class="footer navbar navbar-default navbar-fixed-bottom">
-            <div class="container">
-                 <div class="row">
-                    <div class="col-md-6 col-sm-10 col-xs-10 col-md-offset-3 col-sm-offset-1 col-xs-offset-1">
-                    인성문화연구소  |  서울사무소 서울시 도봉구 노해로 397-14, 11층  |  Tel. 02-992-8264  |  Fax. 02-992-8266<br>
-                    사업자번호 122-86-31734  |  대표자 ㅇㅇㅇ  |  
-                        <p>COPYRIGHT © 2016 INSEONGCULTURE  all rights reserved</p>
-                    </div>
-                </div>
-            </div>
+									<nav class="navbar-text navbar-right">
+									<ul class="nav nav-pills btn_nav hidden-sm hidden-xs">
+										<li role="presentation">
+											<a href="testinfo.html">아이디 님</a></li>
+										<li role="presentation">
+											<a href="companyinfo.html">로그아웃</a></li>
+								  </ul>
+									<button type="button" class="btn btn-link hidden-md hidden-lg">
+										<span class="glyphicon glyphicon-menu-hamburger " aria-hidden="true"></span>
+									</button>
+                </nav>
+						</div>
+         </nav>
         </div>
-      </div>
+			<div class="page_admin">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<button class="btn btn-red" type="submit">계정 생성</button>
+						  <button class="btn btn-red" type="submit">계정 삭제</button>
+						</div>
+						<div class="col-md-4 col-md-offset-4">
+							<button class="btn btn-red" type="submit">검 색</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<td><input type="checkbox" name="selected_all"></td>
+											<td>NO</td>
+											<td>가입형태</td>
+											<td>아이디</td>
+											<td>이름</td>
+											<td>이메일</td>
+											<td>연락처</td>
+											<td>테스트 상태</td>
+										</tr>
+									</thead>
+									<tbody>
+										<a href="#">
+											<tr style="cursor:pointer">
+												<td><input type="checkbox" name="selected"></td>
+												<td scope="row">1</td>
+												<td>A</td>
+												<td>AIN</td>
+												<td>종로한샘</td>
+												<td>skwoe@naver.com</td>
+												<td>010-9459-9394</td>
+												<td><div class="status_complete"></div></td>
+											</tr>
+										</a>
+										<a href="#">
+										<tr style="cursor:pointer">
+											<td><input type="checkbox" name="selected"></td>
+											<td scope="row">2</td>
+											<td>1</td>
+											<td>2</td>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td><div class="status"></div></td>
+										</tr>
+										</a>
+										<a href="#">
+										<tr style="cursor:pointer">
+											<td><input type="checkbox" name="selected"></td>
+											<td scope="row">3</td>
+											<td>1</td>
+											<td>2</td>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td><div class="status"></div></td>
+										</tr>
+										</a>
+										<a href="#">
+										<tr style="cursor:pointer">
+											<td><input type="checkbox" name="selected"></td>
+											<td scope="row">4</td>
+											<td>1</td>
+											<td>2</td>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td><div class="status"></div></td>
+										</tr>
+										</a>
+										<a href="#">
+										<tr style="cursor:pointer">
+											<td><input type="checkbox" name="selected"></td>
+											<td scope="row">5</td>
+											<td>1</td>
+											<td>2</td>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td><div class="status"></div></td>
+										</tr>
+										</a>
+										<a href="#">
+										<tr style="cursor:pointer">
+											<td><input type="checkbox" name="selected"></td>
+											<td scope="row">6</td>
+											<td>1</td>
+											<td>2</td>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td><div class="status"></div></td>
+										</tr>
+										</a>
+										<a href="#">
+										<tr style="cursor:pointer">
+											<td><input type="checkbox" name="selected"></td>
+											<td scope="row">7</td>
+											<td>1</td>
+											<td>2</td>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td><div class="status"></div></td>
+										</tr>
+										</a>
+										<a href="#">
+										<tr style="cursor:pointer">
+											<td><input type="checkbox" name="selected"></td>
+											<td scope="row">8</td>
+											<td>1</td>
+											<td>2</td>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td><div class="status"></div></td>
+										</tr>
+										</a>
+										<a href="#">
+										<tr style="cursor:pointer">
+											<td><input type="checkbox" name="selected"></td>
+											<td scope="row">9</td>
+											<td>1</td>
+											<td>2</td>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td><div class="status"></div></td>
+										</tr>
+										</a>
+										<a href="#">
+										<tr style="cursor:pointer">
+											<td><input type="checkbox"name="selected"></td>
+											<td scope="row">10</td>
+											<td>1</td>
+											<td>2</td>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td><div class="status"></div></td>
+										</tr>
+										</a>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div clas="col-md-12">
+							<nav>
+								<ul class="pagination">
+									<li>
+										<a href="#" aria-label="Previous">
+											<span aria-hidden="true">&laquo;</span>
+										</a>
+									</li>
+									<li><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li><a href="#">6</a></li>
+									<li><a href="#">7</a></li>
+									<li><a href="#">8</a></li>
+									<li><a href="#">9</a></li>
+									<li><a href="#">10</a></li>
+									<li>
+										<a href="#" aria-label="Next">
+											<span aria-hidden="true">&raquo;</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
       
       
      

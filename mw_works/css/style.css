@@ -35,7 +35,7 @@ html, body, #root {
 }
 
 .header nav.navbar > .container {
-  margin-top:15px;
+  margin-top:0;
   background-color: #61625a;
 }
 
@@ -435,6 +435,125 @@ div.page_404 {
   margin-top: 20%;
   text-align: center;
 }
+
+
+/* Page admin */
+
+
+.page_admin .container .btn {
+	padding: 10px 35px;
+	font-size:12px;
+	font-weight: 300;
+	margin-top:35px;
+}
+
+.page_admin .btn + .btn {
+  margin-left: 30px;
+}
+
+.page_admin .col-md-offset-4 .btn {
+  margin-left: 260px;
+}
+
+.page_admin .table-responsive {
+	margin-top:45px;
+}
+
+.page_admin table, .page_admin tr th{
+	text-align:center;
+}
+
+.page_admin .pagination {
+	margin-left:420px;
+	margin-top: 30px;
+}
+
+.page_admin .table>thead>tr {
+	background-color:#9d9e96;
+	color:#fff;
+}
+
+.page_admin .table>tbody>tr>th, .page_admin .table>thead>tr>th, .page_admin .table>tbody>tr>td  {
+	padding:13px;
+}
+.table>tbody>tr:hover, .table>tbody>tr:active {
+	color: #fff;
+  background-color: #61625a;
+}
+
+.table>tbody>tr {
+	border-top:none;
+	border-bottom: 1px solid #ddd;
+}
+
+.status {
+	width: 18px;
+	height: 18px;
+	background-color:#cfd0c8;
+	border:1px solid #b1b2aa;
+	border-radius: 18px;
+	margin:0 auto;
+}
+
+.status_complete {
+	width: 18px;
+	height: 18px;
+	background-color:#98182f;
+	border:1px solid #b1b2aa;
+	border-radius: 18px;
+	margin:0 auto;
+}
+
+.page_admin .pagination>li>a {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.42857143;
+	color: #323232;
+	text-decoration: none;
+	background-color: #fff;
+	border: none;
+}
+
+.test_card {
+	width:200px;
+	height:250px;
+	background-color: #f8f7f0;
+	margin:14px 14px;
+	float:left;
+	text-align: center;
+	font-size:20px;
+}
+
+.test_card:hover, .test_card:active {
+	background-color: #98182f;
+	color:#fff;
+}
+
+.test_person {
+	width:80px;
+	height:50px;
+	background-color: #cfd0c8;
+	margin:0 auto;
+}
+
+.test_sub {
+	margin-top:35px;
+	height: 80px;
+}
+
+.test_card + .test_card {
+	margin-left:14px;
+	float:left;
+}
+
+
+.test_box {
+	margin-top:20px;
+	}
+
+
 
 /* Background */
 
