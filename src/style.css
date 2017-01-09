@@ -543,6 +543,31 @@ a.btn_red.btn.btn-lg:hover {
 
 @media screen and (max-height: 768px) {
   div.home_main_text {
-    margin-top: 10%;
+    margin-top: 25%;
   }
+}
+
+@media (max-width: 768px) {
+	.home_main_text h3 {
+		font-size:18px;
+		font-weight: 600;
+	}
+	h3 {
+		margin-top:12px;
+	}
+	a.btn_red.btn.btn-lg {
+		padding:14px 25px;;
+		font-size:16px;
+	}
+	.page_home .home_main_text a.btn_red.btn-lg {
+		width:80%;
+	}
+	.page_home .home_main {
+		background-image: url(images/bg_home_mobile.png);
+		background-position: bottom;
+	}
+	.footer nav > .container {
+		font-size:9px;
+		padding: 25px 40px 15px 40px;
+	}
 }
