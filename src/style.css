@@ -286,9 +286,13 @@ p.text_small {
   position: absolute;
   width: 100%;
   height: 100%;
-  font-size:16px;
+  font-size:18px;
 	text-align: center;
   padding-top: 20px;
+}
+
+.progress-bar-danger {
+	 background-color: #98182f;
 }
 
 .page_test .btn-link {
@@ -548,36 +552,63 @@ a.btn_red.btn.btn-lg:hover {
 }
 
 @media (max-width: 768px) {
+	
+	/* page_home */
+	
 	.home_main_text h3 {
 		font-size:18px;
 		font-weight: 600;
 	}
+	
 	h3 {
 		margin-top:12px;
 	}
+	
 	a.btn_red.btn.btn-lg {
 		padding:14px 25px;;
 		font-size:16px;
 	}
+	
 	.page_home .home_main_text a.btn_red.btn-lg {
 		width:80%;
 	}
+	
 	.page_home .home_main {
 		background-image: url(images/bg_home_mobile.png);
 		background-position: bottom;
 	}
-	.footer nav > .container {
-		font-size:9px;
-		padding: 25px 40px 15px 40px;
+	
+	/* page_test */
+	
+	
+	
+	
+	
+	/* page_payment */
+	
+	
+	.page_payment {
+		height:190%;
 	}
+	
+	.page_payment > .container > .row > div.col-xs-12.col-md-4.normal {
+		margin-top:30%;
+	}
+	
+
 }
 
 @media (max-width: 1200px) {
+	
+	/* header */
+	
 	.header nav.navbar > .container {
-		background-color: #98182f;
+		background-color: #98182f;		
+		opacity: 0.99;
 	}
 	.header nav.navbar {
 		background-color: #98182f;
+		opacity: 0.99;
 	}
 	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 		border-color:transparent;
@@ -596,6 +627,13 @@ a.btn_red.btn.btn-lg:hover {
 	}
 	.navbar-inverse .navbar-toggle:hover {
 		background-color: #7f182f;
+	}
+	
+		/* footer */
+	
+	.footer nav > .container {
+		font-size:9px;
+		padding: 25px 40px 15px 40px;
 	}
 	
 }
