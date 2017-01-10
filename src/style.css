@@ -47,6 +47,11 @@ html, body, #root {
   color: #aaa;
 }
 
+.menu_ptrn {
+	width:100%;
+	display: none;
+}
+
 /* Page */
 
 .component_container {
@@ -537,6 +542,7 @@ a.btn_red.btn.btn-lg:hover {
 .footer nav.navbar-fixed-bottom {
   border: none;
   background-image: none;
+	z-index: 1000;
 }
 
 .footer nav > .container {
@@ -612,22 +618,32 @@ a.btn_red.btn.btn-lg:hover {
 	}
 	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 		border-color:transparent;
+		border-top:none;
+		box-shadow: none;
+		-webkit-box-shadow:none;
 	}
 	.navbar-inverse .navbar-toggle {
 		border-color:transparent;
 	}
 	.navbar-fixed-top .navbar-collapse {
-		max-height: 100%;
+		height:100vh;
+		max-height:100vh;
+		
 	}
 	.nav>li {
 		text-align: center;
-		padding:28px 0;
+		padding:20px 0;
 		font-size: 18px;
 		font-weight: 300;
 	}
-	.navbar-inverse .navbar-toggle:hover {
+	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {
 		background-color: #7f182f;
 	}
+	.menu_ptrn {
+		display:inline-block;
+	}
+	
+
 	
 		/* footer */
 	
