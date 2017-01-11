@@ -5,7 +5,7 @@ class Register extends Component {
     return (
       <div className="page_register noscroll bg_ptrn">
         <div className="container">
-				  <div className="bg_white col-md-6 col-md-offset-3">
+				  <div className="col-md-6 col-md-offset-3">
             <div className="row">
 						  <div className="img_logo"></div>
 						</div>

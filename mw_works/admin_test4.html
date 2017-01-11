@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TST Program</title>
+    <link href="http://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
+	 <!-- 부트스트랩 css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5와 미디어쿼리를 지원하지 않는 IE8 이하 버전을 위해 -->
+	<!-- [if lt IE 9]>
+		<script src="html5shiv/html5shiv.min.js">
+		<script src="respond/respond.min.js">
+	<![endif]-->
+  </head>
+  <body>
+  	<div class="root">
+			<div class="header">
+          <nav class="navbar">
+						<div class="container">
+							<a class="navbar-brand" href="http://www.tstprogram.com">
+									<img alt="Brand" src="images/img_adminlogo.png">
+								</a>
+								<nav class="navbar-text">
+									<ul class="nav nav-pills btn_nav hidden-sm hidden-xs">
+										<li role="presentation">
+											<a href="testinfo.html">사용자관리</a></li>
+										<li role="presentation">
+											<a href="companyinfo.html">테스트관리</a></li>
+										<li role="presentation">
+											<a href="signup.html">결제관리</a></li>
+								  </ul>
+									<button type="button" class="btn btn-link hidden-md hidden-lg">
+										<span class="glyphicon glyphicon-menu-hamburger " aria-hidden="true"></span>
+									</button>
+                </nav>
+									<nav class="navbar-text navbar-right">
+									<ul class="nav nav-pills btn_nav hidden-sm hidden-xs">
+										<li role="presentation">
+											<a href="testinfo.html">아이디 님</a></li>
+										<li role="presentation">
+											<a href="companyinfo.html">로그아웃</a></li>
+								  </ul>
+									<button type="button" class="btn btn-link hidden-md hidden-lg">
+										<span class="glyphicon glyphicon-menu-hamburger " aria-hidden="true"></span>
+									</button>
+                </nav>
+						</div>
+         </nav>
+        </div>
+			<div class="page_admin">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<button class="btn btn-red" type="submit">테스트 목록</button>
+							<ul id="mytab" class="nav nav-tabs navbar-right" role="tablist">
+								<li role="presentation" class="active">
+									<a href="#" id="overview" role="tab" data-toggle="tab" aria-controls="overview" aria-expanded="true">개 요</a>
+								</li>
+								<li role="presentation" class="active">
+									<a href="#" id="step1" role="tab" data-toggle="tab" aria-controls="step1" aria-expanded="true">1</a>
+								</li>
+								<li role="presentation" class="active">
+									<a href="#" id="step2" role="tab" data-toggle="tab" aria-controls="step2" aria-expanded="true">2</a>
+								</li>
+								<li role="presentation" class="active">
+									<a href="#" id="step3" role="tab" data-toggle="tab" aria-controls="step3" aria-expanded="true">3</a>
+								</li>
+								<li role="presentation" class="active">
+									<a href="#" id="step4" role="tab" data-toggle="tab" aria-controls="step4" aria-expanded="true">4</a>
+								</li>
+								<li role="presentation" class="active">
+									<a href="#" id="step5" role="tab" data-toggle="tab" aria-controls="step5" aria-expanded="true">5</a>
+								</li>
+								<li role="presentation" class="active">
+									<a href="#" id="step6" role="tab" data-toggle="tab" aria-controls="step6" aria-expanded="true">6</a>
+								</li>
+								<li role="presentation" class="active">
+									<a href="#" id="step7" role="tab" data-toggle="tab" aria-controls="step7" aria-expanded="true">7</a>
+								</li>
+								<li role="presentation" class="active">
+									<a href="#" id="step8" role="tab" data-toggle="tab" aria-controls="step8" aria-expanded="true">8</a>
+								</li>
+								<li role="presentation" class="active">
+									<a href="#" id="step9" role="tab" data-toggle="tab" aria-controls="step9" aria-expanded="true">9</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="test_info">
+								<div class="table-responsive">
+									<table class="table">
+											<thead>
+												<tr>
+													<td>NO</td>
+													<td>질문내용</td>
+													<td>답변</td>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td scope="row">1</td>
+													<td>나는 친구들에 비해 비교적 머리가 좋다고 생각된다.</td>
+													<td>X</td>
+												</tr>
+												<tr>
+													<td scope="row">2</td>
+													<td>장기간 지속적인 학습방법 보다는 단기간 집중적인 학습방법이 잘 맞는다.</td>
+													<td>O</td>
+												</tr>
+												<tr>
+													<td scope="row">3</td>
+													<td>철저한 시간 관리에 따른 계획적 학습방법보다는, 대략 해야 할 분량을 나눈 후 포괄적으로 학습하는 편이다</td>
+													<td>O</td>
+												</tr>
+												<tr>
+													<td scope="row">4</td>
+													<td>암기식 학습법보다는 이해식 학습법이 잘 맞다.</td>
+													<td>O</td>
+												</tr>
+												<tr>
+													<td scope="row">5</td>
+													<td>과목 마다 선호도 차이는 있지만, 이와 상관없이 모든 과목을 잘 하기 위해 애쓰는 편이다.</td>
+													<td>O</td>
+												</tr>
+												<tr>
+													<td scope="row">6</td>
+													<td>학습시간 외에 특별한 취미활동을 하기보다는 편하게 쉬는 편이다.</td>
+													<td>O</td>
+												</tr>
+												<tr>
+													<td scope="row">7</td>
+													<td>학습목표가 미래 지향적이기 보다는 현재 주어진 시험과 목표에 최선을 다하는 편이다.</td>
+													<td>X</td>
+												</tr>
+												<tr>
+													<td scope="row">8</td>
+													<td>주어진 상황을 긍정적이고 단순하게 받아들이는 편이다.</td>
+													<td>X</td>
+												</tr>
+												<tr>
+													<td scope="row">9</td>
+													<td>타인의 충고는 별로 신경 쓰지 않는 편이다.</td>
+													<td>O</td>
+												</tr>
+												<tr>
+													<td scope="row">10</td>
+													<td>타인의 입장보다는 나의 입장을 먼저 생각하는 편이다.</td>
+													<td>O</td>
+												</tr>
+												<tr>
+													<td scope="row">11</td>
+													<td>자존감은 높은 편이나, 경쟁적인 상황에서 내면적으로 분노나 불안감을 느낀다.</td>
+													<td>O</td>
+												</tr>
+											</tbody>
+										</table>
+						    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+      <script src="js/jquery-2.1.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+       $(function() {
+           $(window).scroll(function(e) {
+               if($(this).scrollTop() >750){
+                   $('menu-top-home-fixed').css('margin-top','0px');
+                } else{
+                   $('menu-top-home-fixed').css('margin-top','-78px');
+                }
+            });
+       });
+      </script>
+</html>

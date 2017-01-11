@@ -456,7 +456,7 @@ div.page_404 {
 }
 
 .page_admin .table-responsive {
-	margin-top:45px;
+	margin-top:35px;
 }
 
 .page_admin table, .page_admin tr th{
@@ -475,10 +475,6 @@ div.page_404 {
 
 .page_admin .table>tbody>tr>th, .page_admin .table>thead>tr>th, .page_admin .table>tbody>tr>td  {
 	padding:13px;
-}
-.table>tbody>tr:hover, .table>tbody>tr:active {
-	color: #fff;
-  background-color: #61625a;
 }
 
 .table>tbody>tr {
@@ -516,42 +512,171 @@ div.page_404 {
 	border: none;
 }
 
+
+/* Page admin_test */
+
+.page_admin a{
+	color:#323232;
+}
+
 .test_card {
 	width:200px;
 	height:250px;
 	background-color: #f8f7f0;
-	margin:14px 14px;
-	float:left;
 	text-align: center;
 	font-size:20px;
+	display:inline-block;
+}
+
+.test_confirm:hover {
+	border-top:1px solid #f8f7f0;
 }
 
 .test_card:hover, .test_card:active {
 	background-color: #98182f;
-	color:#fff;
+	color:#f8f7f0;
 }
 
 .test_person {
 	width:80px;
 	height:50px;
-	background-color: #cfd0c8;
+	padding:12px 0;
+	background-color: #a8a9a3;
 	margin:0 auto;
+	font-size:16px;
+	color:#f8f7f0;
 }
 
-.test_sub {
+.test_name {
 	margin-top:35px;
-	height: 80px;
+	height: 100px;
+}
+.test_confirm {
+	border-top:1px solid #61625a;
+	margin:0 auto;
+	width:150px;
+	padding:15px 0;
+	font-size:18px;
 }
 
-.test_card + .test_card {
-	margin-left:14px;
-	float:left;
+.col-md-2 + .col-md-2 {
+	margin-left:40px;
+}
+
+.page_admin .row .col-md-2 {
+	margin-top:30px;
+}
+
+/* Page admin_test2 */
+
+.page_admin .col-md-12 table .btn {
+	padding:5px 20px;
+	margin-top:-5px;
+	background-color:#b1b2aa;
 }
 
 
-.test_box {
+/* Page admin_test3  */
+
+.page_admin .col-md-12 .btn {
+	margin-top:5px;
+}
+
+.page_admin .row .col-md-12 {
 	margin-top:20px;
-	}
+}
+
+.page_admin .nav>li>a{
+	padding:16px 35px;
+}
+
+.page_admin .col-md-12 .navbar-right {
+	margin-right:0;
+	margin-top:5px;
+}
+
+.page_admin .nav-tabs>li.active>a {
+	background-color:#b1b2aa;
+	color:#fff;
+	font-size:14px;
+	
+}
+.page_admin .nav-tabs>li.active>a:hover {
+	background-color:#98182f;
+	color:#f8f7f0;
+}
+
+.test_info {
+	margin-top:-20px;
+	width:1138px;
+	height:650px;
+	border:5px solid #98182f;
+	background-color:#f8f7f0;
+	font-size:16px;
+}
+
+.test_info .row {
+	margin-top:40px;
+}
+
+.test_info .row + .row {
+	margin-top:20px;
+}
+
+.test_info .info_sub {
+	padding-left:40px;
+	font-weight: 600;
+}
+
+.test_info .info_content {
+	padding-left:30px;
+}
+
+.test_info .info_sub p, .test_info .info_content p{
+	padding:2px 0;
+}
+
+.info_end {
+	padding-top:20px;
+	font-weight: 500;
+	font-size:80px;
+	color:#98182f;
+	
+}
+
+.data {
+	margin-top:20px;
+	width:280px;
+	height:330px;
+}
+
+.page_admin .test_info .col-md-4 .btn {
+	margin: 200px 80px 15px 80px;
+}
+
+.page_admin .test_info .col-md-4 .btn + .btn {
+	margin:0 80px;
+	background-color:#393a32;
+}
+
+
+/* Page admin_test4  */
+
+.page_admin .test_info table {
+	text-align: left;
+	margin:0 auto;
+	width:1000px;
+}
+
+.page_admin .test_info .table-responsive {
+	margin-top:30px;
+}
+
+.page_admin .test_info table>thead>tr {
+	background-color:transparent;
+	color:#323232;
+	font-weight: 500;	
+}
 
 
 
@@ -630,7 +755,7 @@ a.btn_red.btn.btn-lg:hover {
 
 /* button hover, active 됐을 때  */
 
-.container .btn:hover, .container .btn :active, .container .btn:focus {
+.container .btn:hover, .container .btn :active, .container .btn:focus, .page_admin .col-md-12 table .btn:hover {
     color:#fff;
     background-color: #7f182f;
     border-color: none;
@@ -664,4 +789,13 @@ a.btn_red.btn.btn-lg:hover {
   div.home_main_text {
     margin-top: 10%;
   }
+}
+
+@media (max-width: @screen-sm-max) {
+	.page_home .home_main_text h3 {
+		font-size:20px;
+	}
+	h3 {
+		margin-top:10px;
+	}
 }

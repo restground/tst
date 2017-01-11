@@ -5,6 +5,13 @@ step.current=1;
 
 $( document ).ready(function() {
   
+	//모바일 버튼 토글시 푸터 제거
+	/*
+	$('.navbar-toggle, .navbar-collapse li').click(function(){
+		$('.footer').toggle()
+	});
+	*/
+	
   //테스트 페이지 - 버튼 네비게이션 시작
   
   $('.btn-link').click(function(){
