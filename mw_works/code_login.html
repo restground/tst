@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TST Program</title>
+    <link href="http://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
+	 <!-- 부트스트랩 css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5와 미디어쿼리를 지원하지 않는 IE8 이하 버전을 위해 -->
+	<!-- [if lt IE 9]>
+		<script src="html5shiv/html5shiv.min.js">
+		<script src="respond/respond.min.js">
+	<![endif]-->
+  </head>
+  <body>
+  	<div class="root">
+			<div class="header navbar navbar-default navbar-fixed-top">
+						<div class="container">
+								<nav class="navbar-header">
+										<div class="row">
+										<a class="navbar-brand" href="http://www.tstprogram.com">
+													<img alt="Brand" src="images/header_logo.png">
+											</a>
+										<nav class="navbar-text navbar-right">
+											 <ul class="nav nav-pills btn_nav hidden-sm hidden-xs">
+															<li role="presentation">
+																	<a href="testinfo.html">테스트소개</a></li>
+															<li role="presentation">
+																	<a href="companyinfo.html">회사소개</a></li>
+															<li role="presentation">
+																	<a href="signup.html">회원가입</a></li>
+															<li role="presentation">
+																	<a href="login2.html">로그인</a></li>
+											</ul>
+												<button type="button" class="btn btn-link hidden-md hidden-lg">
+												 <span class="glyphicon glyphicon-menu-hamburger " aria-hidden="true"></span></button>
+										</nav>
+									</nav>
+								</div>
+						</div>
+			<div class="page_login noscroll">
+        <div class="content">
+          <div class="container">
+           <div class="row">
+							<div class="col-md-12">
+								<div class="img_logo"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-md-offset-4">
+								<form class="form-inline">
+									<div class="form-group">
+										<label class="sr-only" htmlFor="id">코드번호</label>
+										<input type="text" class="form-control" id="id" placeholder="코드번호" />
+									</div>
+									<div class="form-group">
+										<label class="sr-only" htmlFor="password">비밀번호</label>
+										<input type="password" class="form-control" id="password" placeholder="비밀번호" />
+									</div>
+									<div class="btn_login">
+										<button type="button" class="btn btn-block">로그인</button>    
+                   </div>
+								</form>
+							</div>
+						</div>
+           </div>
+         </div>
+      </div>
+			<div class="footer navbar navbar-default navbar-fixed-bottom">
+							<div class="container">
+									 <div class="row">
+											<div class="col-md-6 col-sm-10 col-xs-10 col-md-offset-3 col-sm-offset-1 col-xs-offset-1">
+											인성문화연구소  |  서울사무소 서울시 도봉구 노해로 397-14, 11층  | Tel.02-992-8264  |  Fax.02-992-8266<br>
+											사업자번호 122-86-31734  |  대표자 ㅇㅇㅇ  |  
+													<p>COPYRIGHT © 2016 INSEONGCULTURE  all rights reserved</p>
+											</div>
+									</div>
+							</div>
+					</div>
+		</div>
+ </body>
+      <script src="js/jquery-2.1.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+       $(function() {
+           $(window).scroll(function(e) {
+               if($(this).scrollTop() >750){
+                   $('menu-top-home-fixed').css('margin-top','0px');
+                } else{
+                   $('menu-top-home-fixed').css('margin-top','-78px');
+                }
+            });
+       });
+      </script>
+</html>
