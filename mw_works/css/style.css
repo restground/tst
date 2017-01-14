@@ -96,6 +96,71 @@ html, body, #root {
 
 /* 민우 수정 끝 */
 
+
+/* Page_solution */
+.page_solution {
+  width:100%;
+	height:100%;
+}
+
+.page_solution .jumbotron{
+	background-color: #98182f;
+	color:#fff;
+	text-align: center;
+}
+
+
+.signature {
+	background-image: url(../images/img_solution.png);
+	background-position: center;
+	background-color: #98182f;
+	background-repeat: no-repeat;
+	width:616px;
+	height:489px;
+	margin:80px 0px 80px 250px;
+}
+
+.container h2{
+	margin-bottom: 30px;
+}
+
+.page_solution .bg_white {
+	padding: 10px 40px 30px 40px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.page_solution h1 {
+	color:#98182f;
+	margin: 50px 0;
+	font-size:25px;
+}
+
+div.row h1 + div.row h1 {
+	margin-top:100px;
+}
+
+.page_solution .bg_white .row {
+	margin-top:50px;
+	font-size: 20px;
+}
+.page_solution .row .col-md-1{
+	text-align: center;
+}
+
+.page_solution .row .col-md-11{
+	border-left:3px solid #323232;
+}
+
+.graph {
+	background-image: url(../images/img_graph.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:616px;
+	height:635px;
+	margin:50px 0 50px 230px;
+}
+
 /* Page Payment */
 
 .page_payment {
@@ -448,7 +513,7 @@ div.page_404 {
 /* Background */
 
 .bg_ptrn {
-  background-image:url(images/bg_ptrn.png);
+  background-image:url(../images/bg_ptrn.png);
   background-repeat: repeat;
 }
 
