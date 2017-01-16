@@ -21,13 +21,12 @@ class Header extends Component {
               <Navbar.Collapse>
               <Nav pullRight>
 								<a href="/"><img src={ Ptrn } alt="logo" className="menu_ptrn" /></a>
-                
                 <NavItem eventKey={2} href="/about-company">회사소개</NavItem>
 								<NavItem eventKey={1} href="/about-tst">TST소개</NavItem>
                 <NavItem eventKey={2} href="/payment">결제하기</NavItem>
                 <NavItem eventKey={4} href="/register">회원가입</NavItem>
                 <NavItem eventKey={5} href="/login">로그인</NavItem>
-								
+								<button type="button" className="btn">테스트하기</button>
 								<a href="/"><img src={ Ptrn } alt="logo" className="menu_ptrn" /></a>
               </Nav>
               </Navbar.Collapse>

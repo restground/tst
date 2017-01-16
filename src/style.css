@@ -56,6 +56,17 @@ html, body, #root {
 	display: none;
 }
 
+.header ul.nav .btn {
+	font-size:1em;
+	padding:8px 15px;
+	margin-top:7px;
+	margin-left:20px;
+}
+
+.navbar-right {
+	margin-right: 10px;
+}
+
 /* Page */
 
 .component_container {
@@ -195,8 +206,24 @@ p.text_small {
 }
 .panel-body {
 	padding-left:40px;
-	padding-top:20px;
+	padding-top:50px;
 	padding-bottom:20px;
+	font-size:1.2em;
+}
+
+.page_about_tst .panel-body p{
+	margin-bottom: 20px;
+}
+
+.page_about_tst .panel-body .col-md-7 {
+	padding-top:10px;
+	padding-bottom: 40px;
+}
+
+.page_about_tst .panel-body .col-md-7 p {
+	border-left:3px solid #98182f;
+	padding-left:8px;
+	color:#98182f;	
 }
 
 .page_about_tst .jumbotron {
@@ -227,12 +254,21 @@ p.text_small {
 	color: #323232;
 }
 
+.page_about_tst .panel .panel-heading:active{
+	background-color: #98182f;
+	color:#fff;
+}
+
 .page_about_tst .panel-group .panel+.panel {
   margin-top:0;
 }
 
 .page_about_tst .panel-group .panel-body {
   border-top:none!important;
+}
+
+.page_about_tst strong{
+	color: #98182f;
 }
 
 /* page about-company */
