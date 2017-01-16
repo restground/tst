@@ -39,6 +39,10 @@ html, body, #root {
   background-color: #61625a;
 }
 
+.navbar-inverse .navbar-brand {
+	color:#fff;
+}
+
 .header ul.nav li a {
   color: #fff;
 }
@@ -261,12 +265,15 @@ p.text_small {
 	margin-bottom: 60px;
 }
 
+.page_about_company .txt_basic {
+	text-align: left;
+}
+
 .up_mark {
 	background-image: url(images/img_up_mark.png);
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin-left:400px;
 }
 
 .down_mark {
@@ -274,7 +281,12 @@ p.text_small {
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin-left:400px;
+	margin-left:200px;
+}
+
+.page_about_company p strong {
+	color: #98182f;
+	font-size: 20px;
 }
 
 .page_about_company .video {
@@ -285,6 +297,64 @@ p.text_small {
   margin-left: 30px;
 }
 
+.page_about_company .company_img {
+	background-image: url(images/img_pen.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 418px;
+	height: 623px;
+}
+
+.bg_sub {
+	background-image: url(images/bg_sub.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:895px;
+	height:103px;
+	margin-top:150px;
+	margin-bottom:60px;
+	text-align: center;
+	color:#fff;
+	padding:30px 0;
+	font-size:1.6em;
+}
+
+.img_program {
+	padding-left:150px;
+	margin-bottom:30px;
+	padding-top:60px;
+}
+
+.img_program + p {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.line_center {
+	border:2px solid #98182f;
+	width:830px;
+	margin-left:35px;
+}
+
+.line_right {
+	border-right:4px solid #98182f;
+}
+
+.bg_sub + p {
+	text-align: center;
+	font-size:1.2em;
+}
+
+.page_about_company .img_program + a .btn {
+	margin-left: 80px;
+	margin-top:0;
+	background-color: #393a32;
+	padding:15px 100px;
+}
+
+.page_about_company .img_program + a .btn:hover {
+	background-color: #323232;
+}
 /* Page test */
 
 .page_test {

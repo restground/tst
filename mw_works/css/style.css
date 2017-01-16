@@ -125,31 +125,32 @@ html, body, #root {
 }
 
 .page_solution .bg_white {
-	padding: 10px 40px 30px 40px;
+	padding: 10px 50px 60px 50px;
   margin-top: 10px;
-  margin-bottom: 60px;
 }
 
 .page_solution h1 {
 	color:#98182f;
 	margin: 50px 0;
-	font-size:25px;
+	font-size:1.8em;
 }
 
-div.row h1 + div.row h1 {
+div.row + div.row h1 {
 	margin-top:100px;
 }
 
 .page_solution .bg_white .row {
 	margin-top:50px;
-	font-size: 20px;
+	font-size: 1.3em;
 }
 .page_solution .row .col-md-1{
 	text-align: center;
+	font-size:25px;
+	color:#646464;
 }
 
 .page_solution .row .col-md-11{
-	border-left:3px solid #323232;
+	border-left:3px solid #646464;
 }
 
 .graph {
@@ -160,6 +161,14 @@ div.row h1 + div.row h1 {
 	height:635px;
 	margin:50px 0 50px 230px;
 }
+
+.page_solution .col-md-4 .btn{
+	margin:60px 0;
+	font-size:18px;
+	
+}
+
+
 
 /* Page Payment */
 
