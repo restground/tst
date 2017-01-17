@@ -429,9 +429,10 @@ p.text_small {
 
 .page_test_body {
   background-color:#f8f7f0;
+	border:4px solid #98182f;
   width:100%;
   height:600px;
-	margin-top:30px;
+	margin-top:20px;
 	padding:60px 40px;
 	text-align: left;
 	font-size:14px;
@@ -456,6 +457,50 @@ p.text_small {
 .checkbox + .checkbox label{
 	margin-top:40px;	
 }
+
+.page_test .bg_sub {
+	background-image: url(images/bg_sub.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:895px;
+	color:#fff;
+	margin-left:130px;
+	margin-top:30px;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size:1em;
+}
+
+.btn_test {
+	margin-top:250px;
+}
+
+.btn_before{
+	background-image: url(images/btn_before.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	width:80px;
+	height:80px;
+}
+
+.page_test .btn_test button {
+	padding:0;
+}
+.btn_test .btn_after{
+	background-image: url(images/btn_after.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	width:80px;
+	height:80px;
+	padding:0;
+}
+
+
 
 /* Page Login */
 

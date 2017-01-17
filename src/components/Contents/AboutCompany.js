@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import YoutubePlayer from 'react-youtube-player';
 import Program1 from '../../images/img_program1.png';
 import Program2 from '../../images/img_program2.png';
 import Program3 from '../../images/img_program3.png';
@@ -52,7 +51,7 @@ class AboutCompany extends Component {
 									<div className="col-md-6 line_right">
 										<img src={ Program1 } alt="program1" className="img_program" />
 										<p>1. TST Program for Youth / Adult 개발<br />
-										저작권 등록번호 제C-2016-023325호</p>
+										<h6>저작권 등록번호 제C-2016-023325호</h6></p>
 									</div>
 									<div className="col-md-6">	
 										<img src={ Program2 } alt="program2" className="img_program" />
@@ -94,10 +93,14 @@ class AboutCompany extends Component {
 								<div className="row">
 									<div className="col-md-12">
 										<div className="bg_sub"><strong>인문학 북카페 &lt;서재&gt; 운영</strong></div>
-										<img src={ Program7 } alt="program7" className="img_program" />
+										<p> &lt;일상의 인문학&gt;이란 모토아래 동서양 고전 강독을 비롯한 다양한 인문강좌 운영 </p>
+										<div className="row">
+											<div className="col-md-12">
+												<img src={ Program7 } alt="program7" className="img_program" />
 										<a href="http://blog.naver.com/ojs303" target="_blank">
 											<button type="button" className="btn"><p>북카페 &lt;서재&gt; 방문하기</p></button>
-										</a>
+										</a></div>
+										</div>
 									</div>	
 								</div>
 						  </div>    

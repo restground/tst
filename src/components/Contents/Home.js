@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Jumbotron, Button, Grid } from 'react-bootstrap';
+import YoutubePlayer from 'react-youtube-player';
 
 class Home extends Component {
   render() {

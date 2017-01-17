@@ -7,10 +7,14 @@ class Test extends Component {
       <div className="page_test bg_ptrn">
         <div className="container">
 					<div className="row">
-						<div className="col-md-8 col-md-offset-2">
+						<div className="col-md-10 col-md-offset-1 bg_sub">
 							<p><strong>TST 테스트</strong></p>
-							<p>학습자 자신의 현재 학습 방법 및 성향에 관해 깊게 생각한 후, 자신에게 해당되는 문항을 선택하세요</p><br /> 
-							<button type="button" className="btn-link" name='1'>STEP 1</button>
+							<p>학습자 자신의 현재 학습 방법 및 성향에 관해 깊게 생각한 후, 자신에게 해당되는 문항을 선택하세요</p><br />
+						</div>
+					</div>
+							<div className="row">
+							<div className="col-md-8 col-md-offset-2">
+							<button type="button" className="btn-link" name="1">STEP 1</button>
 							<button type="button" className="btn-link" name="2">STEP 2</button>
 							<button type="button" className="btn-link" name="3">STEP 3</button>
 							<button type="button" className="btn-link" name="4">STEP 4</button>
@@ -26,7 +30,10 @@ class Test extends Component {
 				</div> 
 				<div className="container">
 					<div className="row">
-						<div className="col-md-12">
+						<div className="col-md-1 btn_test">	
+							<button type="button" className="btn_before" style={{display:"none"}}></button>    
+						</div>
+						<div className="col-md-10">
 							<div className="page_test_body">
 								<form>
 										<div className="step1 row" style={{display:"block"}}>
@@ -680,13 +687,12 @@ class Test extends Component {
 									</form>
 							</div>
 						</div>
+						<div className="col-md-1 btn_test">
+						<button type="button" className="btn_after" style={{padding:"0 0", margin:"0"}} ></button>
 					</div>
+					</div>
+					
 					<div className="row">
-						<div className="btn_test">
-							<button type="button" className="btn btn_before" style={{display:"none"}}>뒤로</button>    
-							<button type="button" className="btn btn_after" style={{padding:"14px 100px"}}>다음</button>
-						</div>
-
 						<div className="btn_test btn_test_last">
 							<button type="button" className="btn">뒤로</button>    
 							<input type="submit" className="btn" name="submit" />
