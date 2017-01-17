@@ -485,7 +485,7 @@ p.text_small {
 }
 
 .btn_before{
-	background-image: url(images/btn_before.png);
+	background-image: url(./images/btn_before.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: transparent;
@@ -497,8 +497,29 @@ p.text_small {
 .page_test .btn_test button {
 	padding:0;
 }
+
+.test_last {
+	text-align: center;
+	font-size:1em;
+	padding-top:80px;
+}
+
+.page_test .btn_last .btn {
+	margin-top: 50px;
+	padding:14px 100px;
+	font-size:18px;
+}
+
+.page_test .img_logo {
+  background-image: url(./images/login_logo.png);
+  width: 120px;
+  height: 112px;
+  margin: 0 auto 50px auto;
+	}
+
+
 .btn_test .btn_after{
-	background-image: url(images/btn_after.png);
+	background-image: url(./images/btn_after.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: transparent;
@@ -507,6 +528,37 @@ p.text_small {
 	height:80px;
 	padding:0;
 }
+
+.page_test .bg_white{
+	background-color: #98182f;
+	color: #fff;
+	margin-top:10%;
+	font-weight:300;
+	font-size:0.8em;
+}
+
+.page_test .bg_white p{ 
+	margin-top:50px;
+}
+
+.page_test .img_test {
+  background-image: url(./images/test_logo.png);
+  width: 120px;
+  height: 112px;
+  margin: 80px auto 20px auto;
+	}
+
+.page_test .btn.btn_home {
+	background-color: #393a32;
+	margin-bottom:80px;
+	margin-top:30px;
+}
+
+.page_test .btn.btn_home:hover {
+	background-color: #323232;
+}
+
+
 
 
 
@@ -607,7 +659,7 @@ div.page_404 {
 /* Background */
 
 .bg_ptrn {
-  background-image:url(images/bg_ptrn.png);
+  background-image:url(./images/bg_ptrn.png);
   background-repeat: repeat;
 }
 

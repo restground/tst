@@ -39,6 +39,10 @@ html, body, #root {
   background-color: #61625a;
 }
 
+.navbar-inverse .navbar-brand {
+	color:#fff;
+}
+
 .header ul.nav li a {
   color: #fff;
 }
@@ -50,6 +54,26 @@ html, body, #root {
 .menu_ptrn {
 	width:100%;
 	display: none;
+	margin-left:10px;
+}
+
+.header ul.nav .btn {
+	font-size:1em;
+	padding:8px 15px;
+	margin-top:-7px;
+}
+
+.nav>li.nav_test  {
+	display:none;
+}
+
+.nav>li.btn_test {
+	display:block;
+	margin-top:0;
+	}
+
+.navbar-right {
+	margin-right: 10px;
 }
 
 /* Page */
@@ -95,80 +119,6 @@ html, body, #root {
 }
 
 /* 민우 수정 끝 */
-
-
-/* Page_solution */
-.page_solution {
-  width:100%;
-	height:100%;
-}
-
-.page_solution .jumbotron{
-	background-color: #98182f;
-	color:#fff;
-	text-align: center;
-}
-
-
-.signature {
-	background-image: url(../images/img_solution.png);
-	background-position: center;
-	background-color: #98182f;
-	background-repeat: no-repeat;
-	width:616px;
-	height:489px;
-	margin:80px 0px 80px 250px;
-}
-
-.container h2{
-	margin-bottom: 30px;
-}
-
-.page_solution .bg_white {
-	padding: 10px 50px 60px 50px;
-  margin-top: 10px;
-}
-
-.page_solution h1 {
-	color:#98182f;
-	margin: 50px 0;
-	font-size:1.8em;
-}
-
-div.row + div.row h1 {
-	margin-top:100px;
-}
-
-.page_solution .bg_white .row {
-	margin-top:50px;
-	font-size: 1.3em;
-}
-.page_solution .row .col-md-1{
-	text-align: center;
-	font-size:25px;
-	color:#646464;
-}
-
-.page_solution .row .col-md-11{
-	border-left:3px solid #646464;
-}
-
-.graph {
-	background-image: url(../images/img_graph.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	width:616px;
-	height:635px;
-	margin:50px 0 50px 230px;
-}
-
-.page_solution .col-md-4 .btn{
-	margin:60px 0;
-	font-size:18px;
-	
-}
-
-
 
 /* Page Payment */
 
@@ -254,8 +204,6 @@ p.text_small {
   border-color: none;
 }
 
-
-
 /* Page about-tst */
 
 .page_about_tst {
@@ -265,8 +213,24 @@ p.text_small {
 }
 .panel-body {
 	padding-left:40px;
-	padding-top:20px;
+	padding-top:50px;
 	padding-bottom:20px;
+	font-size:1.2em;
+}
+
+.page_about_tst .panel-body p{
+	margin-bottom: 20px;
+}
+
+.page_about_tst .panel-body .col-md-7 {
+	padding-top:10px;
+	padding-bottom: 40px;
+}
+
+.page_about_tst .panel-body .col-md-7 p {
+	border-left:3px solid #98182f;
+	padding-left:8px;
+	color:#98182f;	
 }
 
 .page_about_tst .jumbotron {
@@ -297,12 +261,21 @@ p.text_small {
 	color: #323232;
 }
 
+.page_about_tst .panel .panel-heading:active{
+	background-color: #98182f;
+	color:#fff;
+}
+
 .page_about_tst .panel-group .panel+.panel {
   margin-top:0;
 }
 
 .page_about_tst .panel-group .panel-body {
   border-top:none!important;
+}
+
+.page_about_tst strong{
+	color: #98182f;
 }
 
 /* page about-company */
@@ -335,12 +308,15 @@ p.text_small {
 	margin-bottom: 60px;
 }
 
+.page_about_company .txt_basic {
+	text-align: left;
+}
+
 .up_mark {
 	background-image: url(images/img_up_mark.png);
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin-left:400px;
 }
 
 .down_mark {
@@ -348,7 +324,12 @@ p.text_small {
 	width:100px;
 	height:100px;
 	background-repeat: no-repeat;
-	margin-left:400px;
+	margin-left:200px;
+}
+
+.page_about_company p strong {
+	color: #98182f;
+	font-size: 20px;
 }
 
 .page_about_company .video {
@@ -357,6 +338,65 @@ p.text_small {
 
 .page_about_company .btn + .btn {
   margin-left: 30px;
+}
+
+.page_about_company .company_img {
+	background-image: url(images/img_pen.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 418px;
+	height: 623px;
+}
+
+.bg_sub {
+	background-image: url(images/bg_sub.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:895px;
+	height:103px;
+	margin-top:150px;
+	margin-bottom:60px;
+	text-align: center;
+	color:#fff;
+	padding:30px 0;
+	font-size:1.6em;
+}
+
+.img_program {
+	padding-left:150px;
+	margin-bottom:30px;
+	padding-top:60px;
+}
+
+.img_program + p {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.line_center {
+	border:2px solid #98182f;
+	width:830px;
+	margin-left:35px;
+}
+
+.line_right {
+	border-right:4px solid #98182f;
+}
+
+.bg_sub + p {
+	text-align: center;
+	font-size:1.2em;
+}
+
+.page_about_company .img_program + a .btn {
+	margin-left: 80px;
+	margin-top:0;
+	background-color: #393a32;
+	padding:15px 100px;
+}
+
+.page_about_company .img_program + a .btn:hover {
+	background-color: #323232;
 }
 
 /* Page test */
@@ -397,9 +437,10 @@ p.text_small {
 
 .page_test_body {
   background-color:#f8f7f0;
+	border:4px solid #98182f;
   width:100%;
   height:600px;
-	margin-top:30px;
+	margin-top:20px;
 	padding:60px 40px;
 	text-align: left;
 	font-size:14px;
@@ -424,6 +465,102 @@ p.text_small {
 .checkbox + .checkbox label{
 	margin-top:40px;	
 }
+
+.page_test .bg_sub {
+	background-image: url(images/bg_sub.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:895px;
+	color:#fff;
+	margin-left:130px;
+	margin-top:30px;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size:1em;
+}
+
+.btn_test {
+	margin-top:250px;
+}
+
+.btn_before{
+	background-image: url(../images/btn_before.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	width:80px;
+	height:80px;
+}
+
+.page_test .btn_test button {
+	padding:0;
+}
+
+.test_last {
+	text-align: center;
+	font-size:1em;
+	padding-top:80px;
+}
+
+.page_test .btn_last .btn {
+	margin-top: 50px;
+	padding:14px 100px;
+	font-size:18px;
+}
+
+.page_test .img_logo {
+  background-image: url(../images/login_logo.png);
+  width: 120px;
+  height: 112px;
+  margin: 0 auto 50px auto;
+	}
+
+
+.btn_test .btn_after{
+	background-image: url(../images/btn_after.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	width:80px;
+	height:80px;
+	padding:0;
+}
+
+.page_test .bg_white{
+	background-color: #98182f;
+	color: #fff;
+	margin-top:10%;
+	font-weight:300;
+	font-size:0.8em;
+}
+
+.page_test .bg_white p{ 
+	margin-top:50px;
+}
+
+.page_test .img_test {
+  background-image: url(../images/test_logo.png);
+  width: 120px;
+  height: 112px;
+  margin: 80px auto 20px auto;
+	}
+
+.page_test .btn.btn_home {
+	background-color: #393a32;
+	margin-bottom:80px;
+	margin-top:30px;
+}
+
+.page_test .btn.btn_home:hover {
+	background-color: #323232;
+}
+
+
+
+
 
 /* Page Login */
 
@@ -632,6 +769,16 @@ a.btn_red.btn.btn-lg:hover {
 }
 
 @media (max-width: 768px) {
+	
+	/*header*/
+
+	.nav>li.nav_test {
+		display:block;
+	}
+
+	.nav>li.btn_test {
+		display:none;
+	}
 	
 	/* page_home */
 	

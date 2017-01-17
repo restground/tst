@@ -692,12 +692,35 @@ class Test extends Component {
 						</div>
 					</div>
 					<div className="row">
-						<div className="btn_test btn_test_last">
-							<button type="button" className="btn">뒤로</button>    
-							<input type="submit" className="btn" name="submit" />
+						<div className="col-md-1 btn_test">	
+							<button type="button" className="btn_before"></button>   
+						</div>
+						<div className="col-md-10">
+							<div className="page_test_body test_last">
+								<div className="col-md-12"> 
+									<div className="img_logo"></div>
+									<p>마지막 단계까지 모두 선택하셨습니다.</p>
+									<p>테스트를 마치시겠습니까?</p>
+									<div className="btn_last">
+										<button type="submit" className="btn">테스트 완료 </button>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+				<div className="container">
+					<div className="row">
+						<div className="col-md-4 col-md-offset-4 bg_white">
+							<div className="img_test"></div>
+							<h4><br  /><br  />염민우 님의 테스트가 끝났습니다</h4>
+							<p>결과지가 이메일로 전송되었습니다.<br  />
+							당신의 학습성향이 어떤지 확인해보세요.</p>
+							<button type="button" className="btn btn_home">홈으로 가기</button> 
+						</div>
+					</div>
+				</div>
+				
       </div>
     );
   }

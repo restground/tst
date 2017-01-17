@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TST Program</title>
+    <link href="http://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
+	 <!-- 부트스트랩 css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5와 미디어쿼리를 지원하지 않는 IE8 이하 버전을 위해 -->
+	<!-- [if lt IE 9]>
+		<script src="html5shiv/html5shiv.min.js">
+		<script src="respond/respond.min.js">
+	<![endif]-->
+  </head>
+  <body>
+		<div class="root">
+			<div class="page_test bg_ptrn">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4 bg_white">
+							<div class="img_test"></div>
+							<h4><br><br><strong>염민우</strong>님의 테스트가 끝났습니다</h4>
+							<p>결과지가 이메일로 전송되었습니다.<br>
+							당신의 학습성향이 어떤지 확인해보세요.</p>
+							<button type="button" class="btn btn_home">홈으로 가기</button> 
+						</div>
+					</div>
+				</div>
+		  </div>
+		</div>
+  </body>
+      <script src="js/jquery-2.1.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+       $(function() {
+           $(window).scroll(function(e) {
+               if($(this).scrollTop() >750){
+                   $('menu-top-home-fixed').css('margin-top','0px');
+                } else{
+                   $('menu-top-home-fixed').css('margin-top','-78px');
+                }
+            });
+       });
+      </script>
+</html>
