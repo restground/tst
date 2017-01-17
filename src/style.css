@@ -54,14 +54,23 @@ html, body, #root {
 .menu_ptrn {
 	width:100%;
 	display: none;
+	margin-left:10px;
 }
 
 .header ul.nav .btn {
 	font-size:1em;
 	padding:8px 15px;
-	margin-top:7px;
-	margin-left:20px;
+	margin-top:-7px;
 }
+
+.nav>li.nav_test  {
+	display:none;
+}
+
+.nav>li.btn_test {
+	display:block;
+	margin-top:0;
+	}
 
 .navbar-right {
 	margin-right: 10px;
@@ -194,8 +203,6 @@ p.text_small {
   background-color: #7f182f;
   border-color: none;
 }
-
-
 
 /* Page about-tst */
 
@@ -391,6 +398,7 @@ p.text_small {
 .page_about_company .img_program + a .btn:hover {
 	background-color: #323232;
 }
+
 /* Page test */
 
 .page_test {
@@ -709,6 +717,16 @@ a.btn_red.btn.btn-lg:hover {
 }
 
 @media (max-width: 768px) {
+	
+	/*header*/
+
+	.nav>li.nav_test {
+		display:block;
+	}
+
+	.nav>li.btn_test {
+		display:none;
+	}
 	
 	/* page_home */
 	

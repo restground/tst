@@ -688,10 +688,9 @@ class Test extends Component {
 							</div>
 						</div>
 						<div className="col-md-1 btn_test">
-						<button type="button" className="btn_after" style={{padding:"0 0", margin:"0"}} ></button>
+						<button type="button" className="btn_after"></button>
+						</div>
 					</div>
-					</div>
-					
 					<div className="row">
 						<div className="btn_test btn_test_last">
 							<button type="button" className="btn">뒤로</button>    

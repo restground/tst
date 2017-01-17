@@ -26,7 +26,8 @@ class Header extends Component {
                 <NavItem eventKey={2} href="/payment">결제하기</NavItem>
                 <NavItem eventKey={4} href="/register">회원가입</NavItem>
                 <NavItem eventKey={5} href="/login">로그인</NavItem>
-								<button type="button" className="btn">테스트하기</button>
+								<NavItem eventKey={6} href="/test" className="nav_test">테스트하기</NavItem>
+								<NavItem className="btn_test"><button type="button" className="btn">테스트하기</button></NavItem>
 								<a href="/"><img src={ Ptrn } alt="logo" className="menu_ptrn" /></a>
               </Nav>
               </Navbar.Collapse>
