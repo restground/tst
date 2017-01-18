@@ -103,22 +103,18 @@ html, body, #root {
   margin-bottom: 0;
 }
 
-.home_main_text {
-  text-align: center;
-  margin-top:80px;
+.home_text {
+  background-image: url(./images/img_text.png);
+	background-position: top;
+  background-repeat: no-repeat;
+	margin-left:10%;
+	margin-top:15vh;
+	width:920px;
+	height:97px;
+	background-color: transparent;
 }
 
-.home_main_text h3 {
-  font-size: 2.7em;
-}
 
-/* 민우 수정 시작 */
-
-.page_home .home_main_text a.btn_red.btn-lg {
-	width:40%;
-}
-
-/* 민우 수정 끝 */
 
 /* Page Payment */
 
@@ -804,13 +800,8 @@ a.btn_red.btn.btn-lg:hover {
 		background-image: url(images/bg_home_mobile.png);
 		background-position: bottom;
 	}
-	
-	/* page_test */
-	
-	
-	
-	
-	
+}
+		
 	/* page_payment */
 	
 	
@@ -822,8 +813,6 @@ a.btn_red.btn.btn-lg:hover {
 		margin-top:30%;
 	}
 	
-
-}
 
 @media (max-width: 1200px) {
 	

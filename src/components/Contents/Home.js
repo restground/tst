@@ -7,14 +7,16 @@ class Home extends Component {
     return (
       <div className="page_home noscroll">
         <Jumbotron className="home_main">
-          <Grid>
-            <div className="home_main_text">
-             <p>
-               
-              </p>
-            </div>
-          </Grid>
-        </Jumbotron>
+         	<div className="row">
+           	<div className="col-md-8">
+							<Jumbotron className="home_text">
+           		</Jumbotron>
+						</div>
+						<div className="col-md-4">
+								
+						</div>	
+					</div>
+       </Jumbotron>
       </div>
     );
   }
