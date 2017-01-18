@@ -14,18 +14,20 @@ class Header extends Component {
           <Grid>
             <Navbar.Header>
               <Navbar.Brand>
-                <a href="/"><img src={ LogoImg } alt="logo" className="img-logo" /></a>
+                <a href="/"><strong>인성문화연구소</strong></a>
               </Navbar.Brand>
                <Navbar.Toggle />
             </Navbar.Header>
               <Navbar.Collapse>
               <Nav pullRight>
 								<a href="/"><img src={ Ptrn } alt="logo" className="menu_ptrn" /></a>
-                <NavItem eventKey={1} href="/about-tst">TST소개</NavItem>
                 <NavItem eventKey={2} href="/about-company">회사소개</NavItem>
+								<NavItem eventKey={1} href="/about-tst">TST소개</NavItem>
                 <NavItem eventKey={2} href="/payment">결제하기</NavItem>
                 <NavItem eventKey={4} href="/register">회원가입</NavItem>
                 <NavItem eventKey={5} href="/login">로그인</NavItem>
+								<NavItem eventKey={6} href="/test" className="nav_test">테스트하기</NavItem>
+								<NavItem className="btn_test"><button type="button" className="btn">테스트하기</button></NavItem>
 								<a href="/"><img src={ Ptrn } alt="logo" className="menu_ptrn" /></a>
               </Nav>
               </Navbar.Collapse>

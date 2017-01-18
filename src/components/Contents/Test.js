@@ -7,10 +7,14 @@ class Test extends Component {
       <div className="page_test">
         <div className="container">
 					<div className="row">
-						<div className="col-md-8 col-md-offset-2">
+						<div className="col-md-10 col-md-offset-1 bg_sub">
 							<p><strong>TST 테스트</strong></p>
-							<p>학습자 자신의 현재 학습 방법 및 성향에 관해 깊게 생각한 후, 자신에게 해당되는 문항을 선택하세요</p><br /> 
-							<button type="button" className="btn-link" name='1'>STEP 1</button>
+							<p>학습자 자신의 현재 학습 방법 및 성향에 관해 깊게 생각한 후, 자신에게 해당되는 문항을 선택하세요</p><br />
+						</div>
+					</div>
+							<div className="row">
+							<div className="col-md-8 col-md-offset-2">
+							<button type="button" className="btn-link" name="1">STEP 1</button>
 							<button type="button" className="btn-link" name="2">STEP 2</button>
 							<button type="button" className="btn-link" name="3">STEP 3</button>
 							<button type="button" className="btn-link" name="4">STEP 4</button>
@@ -26,7 +30,10 @@ class Test extends Component {
 				</div> 
 				<div className="container">
 					<div className="row">
-						<div className="col-md-12">
+						<div className="col-md-1 btn_test">	
+							<button type="button" className="btn_before" style={{display:"none"}}></button>    
+						</div>
+						<div className="col-md-10">
 							<div className="page_test_body">
 								<form>
 										<div className="step1 row" style={{display:"block"}}>
@@ -680,19 +687,40 @@ class Test extends Component {
 									</form>
 							</div>
 						</div>
+						<div className="col-md-1 btn_test">
+						<button type="button" className="btn_after"></button>
+						</div>
 					</div>
 					<div className="row">
-						<div className="btn_test">
-							<button type="button" className="btn btn_before" style={{display:"none"}}>뒤로</button>    
-							<button type="button" className="btn btn_after" style={{padding:"14px 100px"}}>다음</button>
+						<div className="col-md-1 btn_test">	
+							<button type="button" className="btn_before"></button>   
 						</div>
-
-						<div className="btn_test btn_test_last">
-							<button type="button" className="btn">뒤로</button>    
-							<input type="submit" className="btn" name="submit" />
+						<div className="col-md-10">
+							<div className="page_test_body test_last">
+								<div className="col-md-12"> 
+									<div className="img_logo"></div>
+									<p>마지막 단계까지 모두 선택하셨습니다.</p>
+									<p>테스트를 마치시겠습니까?</p>
+									<div className="btn_last">
+										<button type="submit" className="btn">테스트 완료 </button>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+				<div className="container">
+					<div className="row">
+						<div className="col-md-4 col-md-offset-4 bg_white">
+							<div className="img_test"></div>
+							<h4><br  /><br  />염민우 님의 테스트가 끝났습니다</h4>
+							<p>결과지가 이메일로 전송되었습니다.<br  />
+							당신의 학습성향이 어떤지 확인해보세요.</p>
+							<button type="button" className="btn btn_home">홈으로 가기</button> 
+						</div>
+					</div>
+				</div>
+				
       </div>
     );
   }
