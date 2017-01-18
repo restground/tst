@@ -57,7 +57,7 @@ class Payment extends Component {
                 </FormGroup>
                 </Form>
               </Col>
-              <Col xs={12} md={4} className="special">
+              <Col xs={12} md={4} className="special selected">
                 <Panel header={specialTitle}>
                   <Row>
                     <Col xs={6} md={6}>

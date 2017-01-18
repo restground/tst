@@ -114,6 +114,15 @@ html, body, #root {
 	background-color: transparent;
 }
 
+.page_home .home_main .row {
+	width: 100%;
+}
+
+.page_home .youtube_player>div {
+	margin-top: 7vh;
+	margin-left: 50px;
+}
+
 /* Page Payment */
 
 .page_payment {
@@ -762,7 +771,7 @@ a.btn_red.btn.btn-lg:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	
 	/*header*/
 
@@ -806,13 +815,13 @@ a.btn_red.btn.btn-lg:hover {
 	.page_payment {
 		height:190%;
 	}
-	
+	/*
 	.page_payment > .container > .row > div.col-xs-12.col-md-4.normal {
 		margin-top:30%;
 	}
-	
+	*/
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
 	
 	/* header */
 	
